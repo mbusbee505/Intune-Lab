@@ -1,39 +1,92 @@
-UserPrincipalName,DisplayName,FirstName,LastName,JobTitle,Department,UsageLocation,Password
-logan.taylor@busbeecorp.onmicrosoft.com,Logan Taylor,Logan,Taylor,CEO,Executive,US,#sxSuL9LtI2y
-abigail.rodriguez@busbeecorp.onmicrosoft.com,Abigail Rodriguez,Abigail,Rodriguez,CEO,Executive,US,CGaU!x@VH2YA
-harper.brown@busbeecorp.onmicrosoft.com,Harper Brown,Harper,Brown,CFO,Executive,US,Qw9eoI4kruWs
-emma.walker@busbeecorp.onmicrosoft.com,Emma Walker,Emma,Walker,CFO,Executive,US,Zv#XDqpty$$5
-benjamin.martinez@busbeecorp.onmicrosoft.com,Benjamin Martinez,Benjamin,Martinez,COO,Executive,US,EnCWzlSRIpq@
-grace.sanchez@busbeecorp.onmicrosoft.com,Grace Sanchez,Grace,Sanchez,COO,Executive,US,ytQf2a#7dO18
-mateo.young@busbeecorp.onmicrosoft.com,Mateo Young,Mateo,Young,HR Manager,Human Resources,US,Vo5wkLyKAK9d
-henry.clark@busbeecorp.onmicrosoft.com,Henry Clark,Henry,Clark,HR Manager,Human Resources,US,jI$z1g5@phte
-benjamin.young@busbeecorp.onmicrosoft.com,Benjamin Young,Benjamin,Young,HR Generalist,Human Resources,US,WUw2QUVnH4kU
-jackson.torres@busbeecorp.onmicrosoft.com,Jackson Torres,Jackson,Torres,HR Generalist,Human Resources,US,0LKmvviLI$9u
-hazel.martin@busbeecorp.onmicrosoft.com,Hazel Martin,Hazel,Martin,Accountant,Finance,US,6d$SHBA7Ss12
-chloe.anderson@busbeecorp.onmicrosoft.com,Chloe Anderson,Chloe,Anderson,Accountant,Finance,US,q0MAA1WLuEYl
-mateo.robinson@busbeecorp.onmicrosoft.com,Mateo Robinson,Mateo,Robinson,Financial Analyst,Finance,US,3$rdDLL9HII!
-aria.thompson@busbeecorp.onmicrosoft.com,Aria Thompson,Aria,Thompson,Financial Analyst,Finance,US,KkihLcIp1yZs
-ella.johnson@busbeecorp.onmicrosoft.com,Ella Johnson,Ella,Johnson,IT Administrator,IT,US,#b5HBO1DijEi
-elijah.white@busbeecorp.onmicrosoft.com,Elijah White,Elijah,White,IT Administrator,IT,US,aKWFmX33f6Zp
-emma.thomas@busbeecorp.onmicrosoft.com,Emma Thomas,Emma,Thomas,Help Desk Technician,IT,US,dSMBB944NAYC
-aiden.sanchez@busbeecorp.onmicrosoft.com,Aiden Sanchez,Aiden,Sanchez,Help Desk Technician,IT,US,JzT0CS!5ktF6
-levi.ramirez@busbeecorp.onmicrosoft.com,Levi Ramirez,Levi,Ramirez,Security Analyst,IT,US,VPIus7IpjMQ#
-jack.sanchez@busbeecorp.onmicrosoft.com,Jack Sanchez,Jack,Sanchez,Security Analyst,IT,US,7ZmD0TmGD6Fb
-mateo.johnson@busbeecorp.onmicrosoft.com,Mateo Johnson,Mateo,Johnson,Sales Manager,Sales,US,9uRlk7H$K1wI
-ella.hernandez@busbeecorp.onmicrosoft.com,Ella Hernandez,Ella,Hernandez,Sales Manager,Sales,US,s0!b11$Y1dDs
-jackson.wilson@busbeecorp.onmicrosoft.com,Jackson Wilson,Jackson,Wilson,Account Executive,Sales,US,tralOjq@4O$6
-riley.brown@busbeecorp.onmicrosoft.com,Riley Brown,Riley,Brown,Account Executive,Sales,US,nLtrS!sz93Qd
-liam.torres@busbeecorp.onmicrosoft.com,Liam Torres,Liam,Torres,Marketing Manager,Marketing,US,vH7bf1JD@6$5
-lucas.white@busbeecorp.onmicrosoft.com,Lucas White,Lucas,White,Marketing Manager,Marketing,US,$Kxbo#mlDXSz
-grace.rodriguez@busbeecorp.onmicrosoft.com,Grace Rodriguez,Grace,Rodriguez,Content Strategist,Marketing,US,zKYnjCxwxHMt
-liam.young@busbeecorp.onmicrosoft.com,Liam Young,Liam,Young,Content Strategist,Marketing,US,e0wzws5RsFh5
-isabella.robinson@busbeecorp.onmicrosoft.com,Isabella Robinson,Isabella,Robinson,Software Engineer,Engineering,US,6J2FK5ACyx!3
-victoria.hill@busbeecorp.onmicrosoft.com,Victoria Hill,Victoria,Hill,Software Engineer,Engineering,US,XgCS@tgbXJ81
-mateo.harris@busbeecorp.onmicrosoft.com,Mateo Harris,Mateo,Harris,QA Engineer,Engineering,US,4MjT7irr5N0K
-jackson.moore@busbeecorp.onmicrosoft.com,Jackson Moore,Jackson,Moore,QA Engineer,Engineering,US,iowxrZnSgIaS
-alexander.smith@busbeecorp.onmicrosoft.com,Alexander Smith,Alexander,Smith,DevOps Engineer,Engineering,US,RLxZ8MKdi6Dj
-benjamin.wilson@busbeecorp.onmicrosoft.com,Benjamin Wilson,Benjamin,Wilson,DevOps Engineer,Engineering,US,qprfmJiGxsrN
-noah.white@busbeecorp.onmicrosoft.com,Noah White,Noah,White,Support Specialist,Customer Support,US,kcwY!Q8Ctk0k
-emma.thomas@busbeecorp.onmicrosoft.com,Emma Thomas,Emma,Thomas,Support Specialist,Customer Support,US,WKqkI0C#Bi5z
-aiden.taylor@busbeecorp.onmicrosoft.com,Aiden Taylor,Aiden,Taylor,Customer Success Manager,Customer Support,US,lxyZhKnibJRo
-lucas.wright@busbeecorp.onmicrosoft.com,Lucas Wright,Lucas,Wright,Customer Success Manager,Customer Support,US,5u#UkB7hejUK
+version:v1.0,,,,,,,,,,,,,,,,
+Name [displayName] Required,User name [userPrincipalName] Required,Initial password [passwordProfile] Required,Block sign in (Yes/No) [accountEnabled] Required,First name [givenName],Last name [surname],Job title [jobTitle],Department [department],Usage location [usageLocation],Street address [streetAddress],State or province [state],Country or region [country],Office [physicalDeliveryOfficeName],City [city],ZIP or postal code [postalCode],Office phone [telephoneNumber],Mobile phone [mobile]
+Chloe Cooper,chloe.cooper@busbeecorp.onmicrosoft.com,c4btbxphetWC,No,Chloe,Cooper,CEO,Executive,US,5410 Pine St,VA,United States,HQ,Charlottesville,20319,+15715144923,+12594462290
+Emily Morales,emily.morales@busbeecorp.onmicrosoft.com,VD!BsA*%zlv4,No,Emily,Morales,Account Executive,Sales,US,7887 Maple Ave,VA,United States,Office 101,Reston,22705,+17408217932,+14167524295
+Emery Flores,emery.flores@busbeecorp.onmicrosoft.com,sTZp$fMhR#UL,No,Emery,Flores,Supply Chain Analyst,Operations,US,7277 Maple Ave,VA,United States,HQ,Richmond,27397,+14534302049,+15462214770
+Grace Lewis,grace.lewis@busbeecorp.onmicrosoft.com,xRpsUN63kTBW,No,Grace,Lewis,Software Engineer,Engineering,US,3850 Main St,VA,United States,Office 101,Winchester,20514,+12727264899,+14858858953
+Zoey Cooper,zoey.cooper@busbeecorp.onmicrosoft.com,vZzYZ79bV*#l,No,Zoey,Cooper,Product Marketing Manager,Marketing,US,7849 Pine St,VA,United States,HQ,Fairfax,23119,+12998748062,+15626337735
+Brooklyn Miller,brooklyn.miller@busbeecorp.onmicrosoft.com,7dQOylZQdU!T,No,Brooklyn,Miller,Sales Representative,Sales,US,5659 Main St,VA,United States,Remote,Norfolk,24073,+13947498350,+13436324006
+Natalie Reyes,natalie.reyes@busbeecorp.onmicrosoft.com,*Z2UknXo3^Ix,No,Natalie,Reyes,Financial Analyst,Finance,US,9116 Main St,VA,United States,Branch,Virginia Beach,20828,+17532152528,+19714423724
+Kennedy Morales,kennedy.morales@busbeecorp.onmicrosoft.com,qONbEyzZ#BQI,No,Kennedy,Morales,Customer Support Specialist,Support,US,1060 First Ave,VA,United States,HQ,Norfolk,26209,+15994718454,+14926338973
+Grace Harris,grace.harris@busbeecorp.onmicrosoft.com,6zw3EvEW!LkO,No,Grace,Harris,HR Generalist,HR,US,9589 Cedar Rd,VA,United States,HQ,Winchester,28883,+19655211936,+12517988811
+Piper Ortiz,piper.ortiz@busbeecorp.onmicrosoft.com,!UVU*UGhM7gJ,No,Piper,Ortiz,Marketing Specialist,Marketing,US,1412 First Ave,VA,United States,Field,Roanoke,21122,+12698914853,+16133225033
+Gianna Kim,gianna.kim@busbeecorp.onmicrosoft.com,iZZ%irWP9W7H,No,Gianna,Kim,Cloud Architect,Engineering,US,6968 Cedar Rd,VA,United States,Field,Arlington,29562,+17355235272,+14098856147
+Hannah King,hannah.king@busbeecorp.onmicrosoft.com,QGxUN*M*OoCw,No,Hannah,King,Operations Coordinator,Operations,US,7591 Oak St,VA,United States,HQ,Alexandria,21188,+16698362638,+12757504492
+Piper King,piper.king@busbeecorp.onmicrosoft.com,onQiIlNp^VxT,No,Piper,King,Content Strategist,Marketing,US,4102 Oak St,VA,United States,Remote,Arlington,24669,+16487565956,+18268699666
+Olivia Bennett,olivia.bennett@busbeecorp.onmicrosoft.com,wU%1Dk$I5RQr,No,Olivia,Bennett,COO,Executive,US,2300 Oak St,VA,United States,HQ,Arlington,21891,+19607663546,+14784884450
+Emery Baker,emery.baker@busbeecorp.onmicrosoft.com,1lY3#sm^Gq7h,No,Emery,Baker,Controller,Finance,US,8104 Oak St,VA,United States,HQ,Roanoke,20832,+18496335533,+12452036464
+Scarlett Brooks,scarlett.brooks@busbeecorp.onmicrosoft.com,Ku$rd0hP1HC$,No,Scarlett,Brooks,HR Generalist,HR,US,9138 Cedar Rd,VA,United States,Field,Virginia Beach,27007,+12093142232,+19073529938
+Mia Mitchell,mia.mitchell@busbeecorp.onmicrosoft.com,pNV5wAnj3gCe,No,Mia,Mitchell,Compliance Officer,Legal,US,7141 First Ave,VA,United States,Office 101,Reston,20685,+15732406862,+14158985088
+Lucy Wilson,lucy.wilson@busbeecorp.onmicrosoft.com,7*Al3m5S&u4#,No,Lucy,Wilson,IT Support Specialist,IT,US,2632 First Ave,VA,United States,Remote,Norfolk,22662,+16222253938,+19545407745
+Lucy Young,lucy.young@busbeecorp.onmicrosoft.com,7w41@vfZoGPr,No,Lucy,Young,HR Generalist,HR,US,6367 Main St,VA,United States,Remote,Arlington,27711,+14046716728,+15124334652
+Sophia James,sophia.james@busbeecorp.onmicrosoft.com,hxA^eDYw9tej,No,Sophia,James,Treasury Analyst,Finance,US,4664 Main St,VA,United States,Office 101,Richmond,24573,+18567217548,+18957496425
+Sophia Anderson,sophia.anderson@busbeecorp.onmicrosoft.com,eJV2ihgE!Inh,No,Sophia,Anderson,HR Generalist,HR,US,4449 Main St,VA,United States,Field,Charlottesville,21776,+16445536139,+16468209379
+Ella Roberts,ella.roberts@busbeecorp.onmicrosoft.com,eZ0NSQ6^i*1D,No,Ella,Roberts,Corporate Counsel,Legal,US,827 Cedar Rd,VA,United States,HQ,Alexandria,27144,+17327514228,+15726412146
+Lucy Nelson,lucy.nelson@busbeecorp.onmicrosoft.com,t3Nbet1yf!F@,No,Lucy,Nelson,Paralegal,Legal,US,5020 Maple Ave,VA,United States,Branch,Arlington,25067,+16185347592,+19135023085
+Layla Turner,layla.turner@busbeecorp.onmicrosoft.com,^wM1@EYIBq%!,No,Layla,Turner,Supply Chain Analyst,Operations,US,9424 Oak St,VA,United States,Field,Reston,26653,+12005115700,+14156406279
+Brooklyn Cruz,brooklyn.cruz@busbeecorp.onmicrosoft.com,!L6SS7WENY^S,No,Brooklyn,Cruz,Help Desk Technician,Support,US,8475 Pine St,VA,United States,Branch,Fairfax,22780,+12864909445,+18798486491
+Elizabeth Walker,elizabeth.walker@busbeecorp.onmicrosoft.com,YQVu*kG%ckAC,No,Elizabeth,Walker,HR Generalist,HR,US,2514 Main St,VA,United States,Remote,Fairfax,20757,+16868252193,+16666244185
+Emery Hughes,emery.hughes@busbeecorp.onmicrosoft.com,zrGsRWUVvK0i,No,Emery,Hughes,Logistics Manager,Operations,US,4097 First Ave,VA,United States,HQ,Norfolk,20090,+19976354585,+13809129486
+Brooklyn Miller,brooklyn.miller@busbeecorp.onmicrosoft.com,GHhstbLU0%xj,No,Brooklyn,Miller,CFO,Executive,US,7578 First Ave,VA,United States,Branch,Arlington,27612,+17437726198,+19736539270
+Genesis Peterson,genesis.peterson@busbeecorp.onmicrosoft.com,fYD9%Es$QO1V,No,Genesis,Peterson,Customer Support Specialist,Support,US,7473 Oak St,VA,United States,Branch,Virginia Beach,24050,+14839849540,+16968414919
+Natalie Cruz,natalie.cruz@busbeecorp.onmicrosoft.com,9TItx&lUFThL,No,Natalie,Cruz,Sales Manager,Sales,US,4551 Oak St,VA,United States,Field,Fairfax,25238,+12823413471,+14365923503
+Genevieve Ramirez,genevieve.ramirez@busbeecorp.onmicrosoft.com,l#J@e!uWj6Fh,No,Genevieve,Ramirez,Business Development Rep,Sales,US,5521 Maple Ave,VA,United States,Office 202,Norfolk,27633,+12634117883,+15989881320
+Vivian Carter,vivian.carter@busbeecorp.onmicrosoft.com,7^uJFXzc!YUp,No,Vivian,Carter,Customer Support Specialist,Support,US,4992 Pine St,VA,United States,Field,Richmond,26865,+19659529947,+18174258999
+Mila Wright,mila.wright@busbeecorp.onmicrosoft.com,TEy^HBMYJW7L,No,Mila,Wright,Logistics Manager,Operations,US,6471 Oak St,VA,United States,Branch,Winchester,26624,+13696783091,+18377461441
+Luna Ramos,luna.ramos@busbeecorp.onmicrosoft.com,lgSJjtMEI!OO,No,Luna,Ramos,Compliance Officer,Legal,US,1475 Cedar Rd,VA,United States,Remote,Winchester,27022,+16723861823,+14665886363
+Zoey Collins,zoey.collins@busbeecorp.onmicrosoft.com,B^&L87*jRPgc,No,Zoey,Collins,Network Engineer,IT,US,4658 Pine St,VA,United States,HQ,Norfolk,24133,+16812199837,+12535584673
+Ivy Rodriguez,ivy.rodriguez@busbeecorp.onmicrosoft.com,XGybOLoPjS1k,No,Ivy,Rodriguez,Software Engineer,Engineering,US,3366 Main St,VA,United States,Remote,Fairfax,22496,+13296842874,+17774238619
+Anna Allen,anna.allen@busbeecorp.onmicrosoft.com,qViIcdFY1FI3,No,Anna,Allen,Systems Administrator,IT,US,1976 First Ave,VA,United States,HQ,Charlottesville,25096,+17922266111,+17898937149
+Luna Sanchez,luna.sanchez@busbeecorp.onmicrosoft.com,^oAALI*CEB4!,No,Luna,Sanchez,Account Executive,Sales,US,5041 Cedar Rd,VA,United States,HQ,Arlington,29837,+17792426688,+17456387071
+Abigail Cook,abigail.cook@busbeecorp.onmicrosoft.com,@kXTVJ3CHWNK,No,Abigail,Cook,Systems Administrator,IT,US,8131 Main St,VA,United States,Office 101,Norfolk,27102,+18506703506,+16453809548
+Ivy Wright,ivy.wright@busbeecorp.onmicrosoft.com,h3TfSy0pQ3Nw,No,Ivy,Wright,Compliance Officer,Legal,US,7716 Pine St,VA,United States,Office 101,Virginia Beach,29707,+15304512419,+14856614995
+Cora Reyes,cora.reyes@busbeecorp.onmicrosoft.com,AQbWEmq8x7lk,No,Cora,Reyes,Compliance Officer,Legal,US,5611 Main St,VA,United States,Office 101,Norfolk,28098,+13866994475,+15634646576
+Natalie Kim,natalie.kim@busbeecorp.onmicrosoft.com,w9UyzpiXa4By,No,Natalie,Kim,HR Manager,HR,US,8564 First Ave,VA,United States,Remote,Winchester,21402,+19376169004,+17689764937
+Mary Stewart,mary.stewart@busbeecorp.onmicrosoft.com,iOIib**BayYc,No,Mary,Stewart,Technical Support Engineer,Support,US,1624 Oak St,VA,United States,Office 202,Winchester,23630,+19084496016,+18797957046
+Samantha Peterson,samantha.peterson@busbeecorp.onmicrosoft.com,iA$&#&qZ2wxX,No,Samantha,Peterson,COO,Executive,US,9117 Oak St,VA,United States,Branch,Norfolk,25764,+16644776023,+14574362976
+Adeline Harris,adeline.harris@busbeecorp.onmicrosoft.com,mjq9xy4EjeDS,No,Adeline,Harris,Systems Administrator,IT,US,3133 First Ave,VA,United States,Branch,Roanoke,23545,+16954839595,+18114892647
+Layla Nguyen,layla.nguyen@busbeecorp.onmicrosoft.com,khF5Y5Dni55P,No,Layla,Nguyen,Controller,Finance,US,5052 Main St,VA,United States,Remote,Reston,28751,+14802461893,+17664993068
+Raelynn Morales,raelynn.morales@busbeecorp.onmicrosoft.com,XmWYKID9iJg1,No,Raelynn,Morales,Sales Representative,Sales,US,4758 Pine St,VA,United States,Office 202,Charlottesville,27843,+15483881841,+14586892869
+Abigail Phillips,abigail.phillips@busbeecorp.onmicrosoft.com,$Wu9Fa0AqB2r,No,Abigail,Phillips,Customer Support Specialist,Support,US,978 First Ave,VA,United States,Field,Charlottesville,22444,+15112875066,+13217717818
+Valentina Kim,valentina.kim@busbeecorp.onmicrosoft.com,VPPUOC$CjEzE,No,Valentina,Kim,Corporate Counsel,Legal,US,6332 Pine St,VA,United States,Office 101,Roanoke,27253,+18026396003,+17828351986
+Rylee Gonzalez,rylee.gonzalez@busbeecorp.onmicrosoft.com,XcGefH^DLr8Q,No,Rylee,Gonzalez,Accountant,Finance,US,1430 First Ave,VA,United States,Remote,Alexandria,23929,+17652763564,+12026188381
+Mary Kim,mary.kim@busbeecorp.onmicrosoft.com,LPophBgNLqd4,No,Mary,Kim,Technical Support Engineer,Support,US,3892 Oak St,VA,United States,Branch,Winchester,24632,+16642724824,+14708404241
+Genesis Anderson,genesis.anderson@busbeecorp.onmicrosoft.com,EMZ@ecGcbBPS,No,Genesis,Anderson,CFO,Executive,US,4452 First Ave,VA,United States,HQ,Reston,21169,+13695145728,+16493278679
+Mary Hill,mary.hill@busbeecorp.onmicrosoft.com,JjHpE#TAJF6R,No,Mary,Hill,Logistics Manager,Operations,US,8947 Pine St,VA,United States,HQ,Roanoke,27172,+18122408078,+19525305102
+Sophia Lopez,sophia.lopez@busbeecorp.onmicrosoft.com,8U5F5L#YIA93,No,Sophia,Lopez,Financial Analyst,Finance,US,9541 Main St,VA,United States,Office 202,Alexandria,22870,+17318678245,+14843858141
+Raelynn Morales,raelynn.morales@busbeecorp.onmicrosoft.com,r0$A5VF47miO,No,Raelynn,Morales,Business Development Rep,Sales,US,6790 Oak St,VA,United States,Branch,Richmond,25260,+13073646403,+16219109117
+Zoe James,zoe.james@busbeecorp.onmicrosoft.com,%6YCxT5haHYp,No,Zoe,James,Supply Chain Analyst,Operations,US,7551 Main St,VA,United States,Office 101,Winchester,25153,+15313187622,+17262019889
+Brooklyn Evans,brooklyn.evans@busbeecorp.onmicrosoft.com,aY#@a7apEZnA,No,Brooklyn,Evans,DevOps Engineer,Engineering,US,6027 Maple Ave,VA,United States,Branch,Roanoke,28167,+16529781845,+14084739998
+Scarlett Torres,scarlett.torres@busbeecorp.onmicrosoft.com,8VXhTHTcM%9H,No,Scarlett,Torres,Help Desk Technician,Support,US,2089 Main St,VA,United States,Remote,Virginia Beach,29975,+19263626091,+17642147684
+Elizabeth Lewis,elizabeth.lewis@busbeecorp.onmicrosoft.com,I#YIFK9FoND6,No,Elizabeth,Lewis,Business Development Rep,Sales,US,2622 Pine St,VA,United States,Field,Arlington,24781,+19224797807,+16946834993
+Maya Peterson,maya.peterson@busbeecorp.onmicrosoft.com,Fcp3B&9p%3BM,No,Maya,Peterson,Product Marketing Manager,Marketing,US,9920 Maple Ave,VA,United States,HQ,Fairfax,22236,+14829917798,+15487195377
+Ava Torres,ava.torres@busbeecorp.onmicrosoft.com,ii3IFxrO!Pjm,No,Ava,Torres,HR Manager,HR,US,8122 First Ave,VA,United States,Field,Charlottesville,27316,+16955536446,+17659819903
+Paisley Collins,paisley.collins@busbeecorp.onmicrosoft.com,aNR8CoOHb^s3,No,Paisley,Collins,Systems Administrator,IT,US,9468 Pine St,VA,United States,Office 202,Fairfax,23826,+12445258749,+19225907325
+Autumn Wood,autumn.wood@busbeecorp.onmicrosoft.com,lB^fookCCO18,No,Autumn,Wood,Product Marketing Manager,Marketing,US,2168 Maple Ave,VA,United States,Office 101,Winchester,29669,+13026502633,+17386671251
+Adeline Jackson,adeline.jackson@busbeecorp.onmicrosoft.com,pfP76WUOCwE9,No,Adeline,Jackson,Supply Chain Analyst,Operations,US,1325 Pine St,VA,United States,Office 101,Reston,24342,+18389097512,+18652826383
+Quinn Morgan,quinn.morgan@busbeecorp.onmicrosoft.com,i!M708a@3@1f,No,Quinn,Morgan,Logistics Manager,Operations,US,8964 Main St,VA,United States,Remote,Virginia Beach,21121,+18469005708,+14329642480
+Aaliyah Gonzalez,aaliyah.gonzalez@busbeecorp.onmicrosoft.com,om^ZPGJ5*Lsa,No,Aaliyah,Gonzalez,Business Development Rep,Sales,US,5006 Main St,VA,United States,Office 101,Reston,20753,+12575006873,+15836413385
+Addison Ortiz,addison.ortiz@busbeecorp.onmicrosoft.com,rL2aDgMc&GgW,No,Addison,Ortiz,Supply Chain Analyst,Operations,US,2885 First Ave,VA,United States,Field,Reston,21293,+15918344945,+17097973344
+Paisley Reyes,paisley.reyes@busbeecorp.onmicrosoft.com,h3XJ6VYyEAjK,No,Paisley,Reyes,Recruiter,HR,US,253 Pine St,VA,United States,Branch,Alexandria,24712,+17593612210,+16525535901
+Raelynn Diaz,raelynn.diaz@busbeecorp.onmicrosoft.com,WW$KNQqkLKXV,No,Raelynn,Diaz,Recruiter,HR,US,3363 Pine St,VA,United States,HQ,Alexandria,27916,+14425906881,+17885025837
+Isabella James,isabella.james@busbeecorp.onmicrosoft.com,wJhVXh1lprHs,No,Isabella,James,Logistics Manager,Operations,US,9372 Cedar Rd,VA,United States,Field,Winchester,20803,+19637085689,+19944356772
+Mila Brooks,mila.brooks@busbeecorp.onmicrosoft.com,r4Hdow83nLTQ,No,Mila,Brooks,Controller,Finance,US,1691 Cedar Rd,VA,United States,Office 101,Reston,20645,+16512346977,+19493342476
+Leah Adams,leah.adams@busbeecorp.onmicrosoft.com,Twtn0hm4Rtqp,No,Leah,Adams,Operations Coordinator,Operations,US,2265 Maple Ave,VA,United States,Field,Fairfax,25994,+17134793695,+14636935835
+Eva Baker,eva.baker@busbeecorp.onmicrosoft.com,^qdQIiF*!dVk,No,Eva,Baker,Business Development Rep,Sales,US,2406 First Ave,VA,United States,Field,Arlington,26511,+15742927464,+12144709791
+Madison Collins,madison.collins@busbeecorp.onmicrosoft.com,gdtopxYYLWcA,No,Madison,Collins,IT Support Specialist,IT,US,9677 Pine St,VA,United States,HQ,Alexandria,26086,+18914398724,+12258346374
+Rylee Lewis,rylee.lewis@busbeecorp.onmicrosoft.com,vehom5ji9Jw2,No,Rylee,Lewis,Business Development Rep,Sales,US,6789 Main St,VA,United States,HQ,Alexandria,22290,+12385119071,+13182994846
+Jade Moore,jade.moore@busbeecorp.onmicrosoft.com,Nx!lZ*Fa^UbE,No,Jade,Moore,Logistics Manager,Operations,US,8950 Pine St,VA,United States,Branch,Richmond,29622,+19443587797,+18703019017
+Rylee Evans,rylee.evans@busbeecorp.onmicrosoft.com,x9FVv3atLO!R,No,Rylee,Evans,HR Generalist,HR,US,3659 Pine St,VA,United States,Remote,Richmond,27285,+15713017018,+17578606876
+Evelyn Gomez,evelyn.gomez@busbeecorp.onmicrosoft.com,I@LE6QNPk5#X,No,Evelyn,Gomez,HR Generalist,HR,US,7550 Main St,VA,United States,Branch,Arlington,23475,+18548111349,+12515414990
+Scarlett Reed,scarlett.reed@busbeecorp.onmicrosoft.com,Akw@VwbC$MJf,No,Scarlett,Reed,Financial Analyst,Finance,US,3494 Maple Ave,VA,United States,Remote,Roanoke,23538,+15369923417,+18102025542
+Aria Taylor,aria.taylor@busbeecorp.onmicrosoft.com,jn2e^1uqJK@g,No,Aria,Taylor,COO,Executive,US,1901 Cedar Rd,VA,United States,Remote,Reston,20422,+12155664898,+18025311258
+Penelope King,penelope.king@busbeecorp.onmicrosoft.com,x6rp!T$yJ1x#,No,Penelope,King,DevOps Engineer,Engineering,US,8719 Main St,VA,United States,Office 202,Norfolk,21041,+16599966931,+17258072786
+Elena Cook,elena.cook@busbeecorp.onmicrosoft.com,zgeO*%r7%ZZl,No,Elena,Cook,Financial Analyst,Finance,US,5041 Pine St,VA,United States,HQ,Roanoke,20510,+16906117984,+19023109032
+Emery Cruz,emery.cruz@busbeecorp.onmicrosoft.com,ieNKu#^QAS*x,No,Emery,Cruz,Sales Representative,Sales,US,2530 Main St,VA,United States,Office 101,Richmond,22067,+18398489984,+19295327240
+Serenity Ortiz,serenity.ortiz@busbeecorp.onmicrosoft.com,PQQlrFi$G2rP,No,Serenity,Ortiz,Recruiter,HR,US,7148 Main St,VA,United States,Branch,Roanoke,21874,+18669874522,+16406624743
+Kennedy Baker,kennedy.baker@busbeecorp.onmicrosoft.com,&Ahc3JVeDMNf,No,Kennedy,Baker,Technical Support Engineer,Support,US,1657 Oak St,VA,United States,Office 101,Norfolk,26992,+18814617132,+13569038770
+Abigail Lopez,abigail.lopez@busbeecorp.onmicrosoft.com,m*IQJ36^UjU3,No,Abigail,Lopez,Sales Representative,Sales,US,1682 Cedar Rd,VA,United States,Remote,Norfolk,26105,+17692616400,+18863257730
+Claire Bennett,claire.bennett@busbeecorp.onmicrosoft.com,dlNYT&RNSi!%,No,Claire,Bennett,Supply Chain Analyst,Operations,US,4812 Maple Ave,VA,United States,Office 101,Winchester,25119,+13067919313,+14173588900
+Mila Wilson,mila.wilson@busbeecorp.onmicrosoft.com,GWm$tT@nwlp1,No,Mila,Wilson,IT Support Specialist,IT,US,1982 Oak St,VA,United States,Remote,Richmond,29406,+16397741430,+18238735381
+Sophia White,sophia.white@busbeecorp.onmicrosoft.com,XszUxsuYq9Ck,No,Sophia,White,HR Manager,HR,US,5667 Oak St,VA,United States,Remote,Alexandria,20100,+13467797566,+12713451502
+Elizabeth Ortiz,elizabeth.ortiz@busbeecorp.onmicrosoft.com,TO%2B3rHY%9Z,No,Elizabeth,Ortiz,Treasury Analyst,Finance,US,7532 Oak St,VA,United States,Office 101,Norfolk,22578,+15199386314,+19957812391
