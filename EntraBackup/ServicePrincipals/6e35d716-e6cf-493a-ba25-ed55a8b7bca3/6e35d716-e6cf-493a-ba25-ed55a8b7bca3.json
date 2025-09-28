@@ -1,0 +1,54 @@
+{
+  "id": "6e35d716-e6cf-493a-ba25-ed55a8b7bca3",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "AzureSupportCenter",
+  "appDescription": null,
+  "appId": "37182072-3c9c-4f6a-a4b3-b3f91cacffce",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:46:22Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "AzureSupportCenter",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": "https://azuresupportcenter.msftcloudes.com",
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://microsoft.onmicrosoft.com/azurediagnostic",
+    "https://azuresupportcenter.msftcloudes.com"
+  ],
+  "servicePrincipalNames": [
+    "37182072-3c9c-4f6a-a4b3-b3f91cacffce"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

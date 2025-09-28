@@ -1,0 +1,31 @@
+{
+  "installExperience": {
+    "runAsAccount": "system"
+  },
+  "id": "ca341b75-86ec-4a41-b9e7-518e1b031344",
+  "notes": "",
+  "displayName": "GlobalProtect",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+  "supersededAppCount": 0,
+  "@odata.type": "#microsoft.graph.winGetApp",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supersedingAppCount": 0,
+  "uploadState": 1,
+  "owner": "",
+  "privacyInformationUrl": "https://www.paloaltonetworks.com/resources/datasheets/product-privacy-datasheets",
+  "isAssigned": false,
+  "description": "GlobalProtect for Windows Unified Platform connects to a GlobalProtect gateway on a Palo Alto Networks next-generation firewall allowing mobile users to benefit from the protection of enterprise security. The app automatically adapts to the end-user’s location and connects the user to the optimal gateway in order to deliver the best performance for all users and their traffic, without requiring any effort from the user. This allows users to work safely and effectively at locations outside of the traditional office. \r\n\r\nBefore installing this app, please check with your IT department to ensure that your organization has enabled a GlobalProtect gateway subscription on the firewall.\r\n\r\nFeatures: \r\n- Automatic VPN connection\r\n- Automatic discovery of optimal gateway\r\n- Connect via SSL\r\n- Supports all of the existing PAN-OS authentication methods including RADIUS, LDAP, client certificates, and a local user database\r\n- Provides the full benefit of the native experience and allows users to securely use any app\r\n\r\nRequirements: \r\n- Network administrators; please contact your Palo Alto Networks sales representative or channel partner to add GlobalProtect gateway subscription to your firewalls in order to enable support for GlobalProtect for Windows Unified Platform. \r\n- Supported on Palo Alto Networks next-generation firewalls running PAN-OS 7.0 and 7.1",
+  "isFeatured": false,
+  "largeIcon": null,
+  "lastModifiedDateTime": "2025-09-25T20:51:25.7152694Z",
+  "packageIdentifier": "9NBLGGH6BZL3",
+  "developer": "",
+  "publishingState": "published",
+  "manifestHash": null,
+  "publisher": "Palo Alto Networks",
+  "informationUrl": null,
+  "createdDateTime": "2025-09-25T20:51:25.7152694Z",
+  "dependentAppCount": 0
+}

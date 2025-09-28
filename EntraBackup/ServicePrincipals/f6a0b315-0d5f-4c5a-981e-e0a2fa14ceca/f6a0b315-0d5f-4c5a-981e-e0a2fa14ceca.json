@@ -1,0 +1,55 @@
+{
+  "id": "f6a0b315-0d5f-4c5a-981e-e0a2fa14ceca",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Narada Notification Service",
+  "appDescription": null,
+  "appId": "51b5e278-ed7e-42c6-8787-7ff93e92f577",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:47:53Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Narada Notification Service",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "51b5e278-ed7e-42c6-8787-7ff93e92f577"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableLegacyUserImpersonationClient",
+    "disableLegacyUserImpersonationResource",
+    "GitCreatedApp"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": "Microsoft Corporation",
+    "verifiedPublisherId": "5206095",
+    "addedDateTime": "2024-06-25T09:53:05Z"
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

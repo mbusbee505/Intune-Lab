@@ -1,0 +1,16 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#onPremisesPublishingProfiles(publishedResources(),agents(),agentGroups())/$entity",
+  "id": "provisioning",
+  "isEnabled": false,
+  "hybridAgentUpdaterConfiguration": {
+    "deferUpdateDateTime": null,
+    "allowUpdateConfigurationOverride": false,
+    "updateWindow": null
+  },
+  "publishedResources@odata.context": "https://graph.microsoft.com/beta/$metadata#onPremisesPublishingProfiles('provisioning')/publishedResources",
+  "publishedResources": [],
+  "agents@odata.context": "https://graph.microsoft.com/beta/$metadata#onPremisesPublishingProfiles('provisioning')/agents",
+  "agents": [],
+  "agentGroups@odata.context": "https://graph.microsoft.com/beta/$metadata#onPremisesPublishingProfiles('provisioning')/agentGroups",
+  "agentGroups": []
+}

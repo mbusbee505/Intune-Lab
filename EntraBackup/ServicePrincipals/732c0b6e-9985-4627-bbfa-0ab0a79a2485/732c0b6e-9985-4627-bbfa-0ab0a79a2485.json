@@ -1,0 +1,51 @@
+{
+  "id": "732c0b6e-9985-4627-bbfa-0ab0a79a2485",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "M365 App Management Service",
+  "appDescription": null,
+  "appId": "0517ffae-825d-4aff-999e-3f2336b8a20a",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:48:02Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "M365 App Management Service",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "0517ffae-825d-4aff-999e-3f2336b8a20a"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": "Microsoft Corporation",
+    "verifiedPublisherId": "5206095",
+    "addedDateTime": "2024-05-09T08:28:46Z"
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

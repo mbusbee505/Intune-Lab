@@ -1,0 +1,83 @@
+{
+  "id": "a711604e-b821-40ae-906d-cd6304fb7fb8",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "My Apps",
+  "appDescription": null,
+  "appId": "2793995e-0a7d-40d7-bd35-6968ba142197",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-23T18:01:41Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "My Apps",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": "https://myapplications.microsoft.com/logout",
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://myapps.microsoft.com",
+    "https://myapplications.microsoft.com",
+    "x-msauth-MyApplications://com.microsoft.MyApplications",
+    "msauth://com.myapps/e%2fwWXNjQurk5S5P0EkZaIvjcMps%3d",
+    "https://myapplications.microsoft.com/api/signin-oidc",
+    "https://launcher.myapps.microsoft.com",
+    "https://launcher.myapps.microsoft.com/api/signin-oidc",
+    "https://myapplications.microsoft.com/blank.html",
+    "https://myapps.microsoft.com/blank.html",
+    "https://launcher.myapps.microsoft.com/api/passwordsso"
+  ],
+  "servicePrincipalNames": [
+    "2793995e-0a7d-40d7-bd35-6968ba142197"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADandPersonalMicrosoftAccount",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "This allows users to read workspaces",
+      "adminConsentDisplayName": "workspace.read",
+      "id": "f05e1490-846d-4ed2-abcf-869977a8a09f",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "This allows users to read workspaces",
+      "userConsentDisplayName": "Read Workspace",
+      "value": "workspace.read"
+    },
+    {
+      "adminConsentDescription": "This allows users to modify workspaces",
+      "adminConsentDisplayName": "workspace.write",
+      "id": "c1b318ae-a684-4c27-ab24-81350fb6a401",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "This allows users to modify workspaces",
+      "userConsentDisplayName": "Edit Workspaces",
+      "value": "workspace.write"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

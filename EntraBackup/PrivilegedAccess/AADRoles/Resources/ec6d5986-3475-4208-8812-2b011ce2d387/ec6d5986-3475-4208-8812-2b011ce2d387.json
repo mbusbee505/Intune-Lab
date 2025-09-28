@@ -1,0 +1,13 @@
+{
+  "id": "ec6d5986-3475-4208-8812-2b011ce2d387",
+  "externalId": "/",
+  "type": "Directory",
+  "displayName": "Busbeecorp",
+  "status": "Active",
+  "onboardDateTime": null,
+  "registeredDateTime": null,
+  "managedAt": null,
+  "registeredRoot": null,
+  "originTenantId": null,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#governanceResources/$entity"
+}

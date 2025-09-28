@@ -1,0 +1,57 @@
+{
+  "id": "e597f21f-7bd9-4c57-ac86-2c29584ad758",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Microsoft Commerce Accounts Service",
+  "appDescription": null,
+  "appId": "bf9fc203-c1ff-4fd4-878b-323642e462ec",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-19T00:47:29Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Microsoft Commerce Accounts Service",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "bf9fc203-c1ff-4fd4-878b-323642e462ec",
+    "https://accounts.cp.microsoft.com"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableLegacyUserImpersonationResource",
+    "disableLegacyUserImpersonationClient",
+    "disableAcceptingTenantedPassthroughTokens",
+    "disableRequestingTenantedPassthroughTokens"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": "Microsoft Corporation",
+    "verifiedPublisherId": "5206095",
+    "addedDateTime": "2025-07-15T00:15:45Z"
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

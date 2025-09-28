@@ -1,0 +1,67 @@
+{
+  "id": "31f04467-626b-45a7-a1fe-0adb4d58c097",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Microsoft Mobile Application Management",
+  "appDescription": null,
+  "appId": "0a5f63c0-b750-4f38-a71c-4fc0d58b89e2",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:48:01Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Microsoft Mobile Application Management",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "0a5f63c0-b750-4f38-a71c-4fc0d58b89e2",
+    "https://wip.mam.manage.microsoft.com/",
+    "https://msmamservice.api.application"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableAcceptingTenantedPassthroughTokens",
+    "disableRequestingTenantedPassthroughTokens"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "Allows the Application to read and write the user's data pertaining to itself in the Intune Mobile Application Management service",
+      "adminConsentDisplayName": "Read and Write the User's App Management data",
+      "id": "3c7192af-9629-4473-9276-d35e4e4b36c5",
+      "isEnabled": true,
+      "type": "Admin",
+      "userConsentDescription": "Allows the Application to read and write data pertaining to itself in the Intune Mobile Application Management service",
+      "userConsentDisplayName": "Read and Write the User's App Management data",
+      "value": "DeviceManagementManagedApps.ReadWrite"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

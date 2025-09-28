@@ -1,0 +1,10 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#policies/crossTenantAccessPolicy/$entity",
+  "id": "crossTenantAccessPolicy",
+  "definition": [
+    "{\"CrossTenantAccessPolicy\":{\"Version\":2,\"MigrationStatus\":2,\"LastModified\":\"09/28/2025 21:50:54\",\"TenantGroup\":[]}}"
+  ],
+  "displayName": "CrossTenantAccessPolicy for ec6d5986-3475-4208-8812-2b011ce2d387",
+  "applyDefaultsToDomainBasedOrganizations": false,
+  "allowedCloudEndpoints": []
+}

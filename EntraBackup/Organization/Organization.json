@@ -1,0 +1,123 @@
+{
+  "id": "ec6d5986-3475-4208-8812-2b011ce2d387",
+  "deletedDateTime": null,
+  "businessPhones": [
+    "5405149726"
+  ],
+  "city": "Strasburg",
+  "country": null,
+  "countryLetterCode": "US",
+  "createdDateTime": "2025-09-18T22:46:12Z",
+  "defaultUsageLocation": null,
+  "displayName": "Busbeecorp",
+  "isMultipleDataLocationsForServicesEnabled": null,
+  "marketingNotificationEmails": [],
+  "onPremisesLastSyncDateTime": null,
+  "onPremisesSyncEnabled": null,
+  "partnerTenantType": null,
+  "postalCode": "22657-3789",
+  "preferredLanguage": "en",
+  "securityComplianceNotificationMails": [],
+  "securityComplianceNotificationPhones": [],
+  "state": "va",
+  "street": "111 Jenny Ct",
+  "technicalNotificationMails": [
+    "mbusbee505@gmail.com"
+  ],
+  "tenantType": "AAD",
+  "directorySizeQuota": {
+    "used": 432,
+    "total": 50000
+  },
+  "privacyProfile": null,
+  "assignedPlans": [
+    {
+      "assignedDateTime": "2025-09-27T02:08:29Z",
+      "capabilityStatus": "Enabled",
+      "service": "WindowsDefenderATP",
+      "servicePlanId": "871d91ec-ec1a-452b-a83f-bd76c7d770ef"
+    },
+    {
+      "assignedDateTime": "2025-09-27T02:08:29Z",
+      "capabilityStatus": "Enabled",
+      "service": "SCO",
+      "servicePlanId": "1689aade-3d6a-4bfc-b017-46d2672df5ad"
+    },
+    {
+      "assignedDateTime": "2025-09-26T21:24:00Z",
+      "capabilityStatus": "Enabled",
+      "service": "WindowsDefenderATP",
+      "servicePlanId": "36810a13-b903-490a-aa45-afbeb7540832"
+    },
+    {
+      "assignedDateTime": "2025-09-22T17:43:42Z",
+      "capabilityStatus": "Enabled",
+      "service": "AADPremiumService",
+      "servicePlanId": "e866a266-3cff-43a3-acca-0c90a7e00c8b"
+    },
+    {
+      "assignedDateTime": "2025-09-22T17:43:42Z",
+      "capabilityStatus": "Enabled",
+      "service": "VerifiableCredentialsServiceRequest",
+      "servicePlanId": "aae826b7-14cd-4691-8178-2b312f7072ea"
+    },
+    {
+      "assignedDateTime": "2025-09-22T17:43:42Z",
+      "capabilityStatus": "Enabled",
+      "service": "EntraPremiumInternetAccess",
+      "servicePlanId": "8d23cb83-ab07-418f-8517-d7aca77307dc"
+    },
+    {
+      "assignedDateTime": "2025-09-22T17:43:42Z",
+      "capabilityStatus": "Enabled",
+      "service": "AADPremiumService",
+      "servicePlanId": "eec0eb4f-6444-4f95-aba0-50c24d67f998"
+    },
+    {
+      "assignedDateTime": "2025-09-22T17:43:42Z",
+      "capabilityStatus": "Enabled",
+      "service": "EntraPremiumPrivateAccess",
+      "servicePlanId": "f057aab1-b184-49b2-85c0-881b02a405c5"
+    },
+    {
+      "assignedDateTime": "2025-09-18T22:47:41Z",
+      "capabilityStatus": "Enabled",
+      "service": "SCO",
+      "servicePlanId": "c1ec4a95-1f05-45b3-a911-aa3fa01094f5"
+    },
+    {
+      "assignedDateTime": "2025-09-18T22:47:41Z",
+      "capabilityStatus": "Enabled",
+      "service": "exchange",
+      "servicePlanId": "113feb6c-3fe4-4440-bddc-54d774bf0318"
+    }
+  ],
+  "onPremisesSyncStatus": [],
+  "provisionedPlans": [
+    {
+      "capabilityStatus": "Enabled",
+      "provisioningStatus": "Success",
+      "service": "SCO"
+    },
+    {
+      "capabilityStatus": "Enabled",
+      "provisioningStatus": "Success",
+      "service": "exchange"
+    },
+    {
+      "capabilityStatus": "Enabled",
+      "provisioningStatus": "Success",
+      "service": "SCO"
+    }
+  ],
+  "verifiedDomains": [
+    {
+      "capabilities": "Email, OfficeCommunicationsOnline",
+      "isDefault": true,
+      "isInitial": true,
+      "name": "busbeecorp.onmicrosoft.com",
+      "type": "Managed"
+    }
+  ],
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#organization/$entity"
+}

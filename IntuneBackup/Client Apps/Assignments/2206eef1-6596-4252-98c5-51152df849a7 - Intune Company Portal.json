@@ -1,0 +1,19 @@
+{
+  "source": "direct",
+  "settings": {
+    "vpnConfigurationId": null,
+    "isRemovable": null,
+    "@odata.type": "#microsoft.graph.iosStoreAppAssignmentSettings",
+    "uninstallOnDeviceRemoval": false,
+    "preventManagedAppBackup": false
+  },
+  "intent": "available",
+  "id": "7fb3b226-d37d-4e64-82a9-ac9f221f237f_0_0",
+  "sourceId": null,
+  "target": {
+    "deviceAndAppManagementAssignmentFilterId": null,
+    "groupId": "7fb3b226-d37d-4e64-82a9-ac9f221f237f",
+    "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+    "deviceAndAppManagementAssignmentFilterType": "none"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "8a21dabf-a61d-4690-8279-485c27442288",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Azure Credential Configuration Endpoint Service",
+  "appDescription": null,
+  "appId": "ea890292-c8c8-4433-b5ea-b09d0668e1a6",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:49:14Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Azure Credential Configuration Endpoint Service",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://mface.windowsazure.com/"
+  ],
+  "servicePrincipalNames": [
+    "ea890292-c8c8-4433-b5ea-b09d0668e1a6",
+    "https://mface.windowsazure.com/",
+    "https://cce.azure.us/"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

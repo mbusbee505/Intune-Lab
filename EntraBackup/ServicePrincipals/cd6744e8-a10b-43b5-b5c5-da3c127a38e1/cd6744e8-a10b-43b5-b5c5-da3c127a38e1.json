@@ -1,0 +1,65 @@
+{
+  "id": "cd6744e8-a10b-43b5-b5c5-da3c127a38e1",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "CABProvisioning",
+  "appDescription": null,
+  "appId": "5da7367f-09c8-493e-8fd4-638089cddec3",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:48:04Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "CABProvisioning",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "5da7367f-09c8-493e-8fd4-638089cddec3"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableLegacyUserImpersonationResource"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "Allows application to invite users to tenant",
+      "displayName": "Invite users to tenant",
+      "id": "7431916a-fe67-40b3-b273-602ffe516093",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "user.invite.all"
+    }
+  ],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": "Microsoft Corporation",
+    "verifiedPublisherId": "5206095",
+    "addedDateTime": "2024-05-22T22:42:15Z"
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

@@ -1,0 +1,71 @@
+{
+  "lastModifiedDateTime": "2025-09-27T21:35:45.082031Z",
+  "technologies": "mdm,microsoftSense",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "description": "EDR Onboarding",
+  "createdDateTime": "2025-09-27T21:35:45.082031Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "templateReference": {
+    "templateDisplayName": "Endpoint detection and response",
+    "templateDisplayVersion": "Version 1",
+    "templateFamily": "endpointSecurityEndpointDetectionAndResponse",
+    "templateId": "0385b795-0f2f-44ac-8602-9f65bf6adede_1"
+  },
+  "name": "EDR Onboarding",
+  "settingCount": 2,
+  "id": "98c8407d-0f64-4f51-b976-c28d7f63e623",
+  "creationSource": null,
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "23ab0ea3-1b12-429a-8ed0-7390cf699160"
+        },
+        "choiceSettingValue": {
+          "settingValueTemplateReference": {
+            "useTemplateDefault": false,
+            "settingValueTemplateId": "e5c7c98c-c854-4140-836e-bd22db59d651"
+          },
+          "children": [
+            {
+              "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_onboarding",
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingInstanceTemplateReference": null,
+              "simpleSettingValue": {
+                "settingValueTemplateReference": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSecretSettingValue",
+                "value": "7b99da3b-4f8e-4335-90e2-ace89ae24cc7",
+                "valueState": "encryptedValueToken"
+              }
+            }
+          ],
+          "value": "device_vendor_msft_windowsadvancedthreatprotection_configurationtype_onboard"
+        }
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "settingDefinitionId": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "6998c81e-2814-4f5e-b492-a6159128a97b"
+        },
+        "choiceSettingValue": {
+          "settingValueTemplateReference": {
+            "useTemplateDefault": false,
+            "settingValueTemplateId": "f72c326c-7c5b-4224-b890-0b9b54522bd9"
+          },
+          "children": [],
+          "value": "device_vendor_msft_windowsadvancedthreatprotection_configuration_samplesharing_1"
+        }
+      }
+    }
+  ]
+}

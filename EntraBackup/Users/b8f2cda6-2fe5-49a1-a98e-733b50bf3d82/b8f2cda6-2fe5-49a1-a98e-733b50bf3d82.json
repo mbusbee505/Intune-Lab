@@ -1,0 +1,163 @@
+{
+  "id": "b8f2cda6-2fe5-49a1-a98e-733b50bf3d82",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "ageGroup": null,
+  "businessPhones": [
+    "+1 571-555-6002"
+  ],
+  "city": "Winchester",
+  "createdDateTime": "2025-09-23T01:54:49Z",
+  "creationType": null,
+  "companyName": "BusbeeCorp",
+  "consentProvidedForMinor": null,
+  "country": "United States",
+  "department": "Finance",
+  "displayName": "Charlotte Carter",
+  "employeeId": null,
+  "employeeHireDate": null,
+  "employeeLeaveDateTime": null,
+  "employeeType": null,
+  "faxNumber": null,
+  "givenName": "Charlotte",
+  "imAddresses": [],
+  "infoCatalogs": [],
+  "isLicenseReconciliationNeeded": false,
+  "isManagementRestricted": null,
+  "isResourceAccount": null,
+  "jobTitle": "Chief Financial Officer",
+  "legalAgeGroupClassification": null,
+  "mail": null,
+  "mailNickname": "charlotte.carter",
+  "mobilePhone": "+1 202-555-7002",
+  "onPremisesDistinguishedName": null,
+  "officeLocation": "HQ",
+  "onPremisesDomainName": null,
+  "onPremisesImmutableId": null,
+  "onPremisesLastSyncDateTime": null,
+  "onPremisesObjectIdentifier": null,
+  "onPremisesSecurityIdentifier": null,
+  "onPremisesSamAccountName": null,
+  "onPremisesSyncEnabled": null,
+  "onPremisesUserPrincipalName": null,
+  "otherMails": [],
+  "passwordPolicies": null,
+  "postalCode": "22601",
+  "preferredDataLocation": null,
+  "preferredLanguage": null,
+  "proxyAddresses": [],
+  "refreshTokensValidFromDateTime": "2025-09-23T01:54:49Z",
+  "securityIdentifier": "S-1-12-1-3102920102-1235300325-997428905-2185084752",
+  "showInAddressList": null,
+  "signInSessionsValidFromDateTime": "2025-09-23T01:54:49Z",
+  "state": "VA",
+  "streetAddress": "123 Main St",
+  "surname": "Carter",
+  "usageLocation": "US",
+  "userPrincipalName": "charlotte.carter@busbeecorp.onmicrosoft.com",
+  "externalUserConvertedOn": null,
+  "externalUserState": null,
+  "externalUserStateChangeDateTime": null,
+  "userType": "Member",
+  "identityParentId": null,
+  "employeeOrgData": null,
+  "assignedLicenses": [
+    {
+      "disabledPlans": [],
+      "skuId": "1925967e-8013-495f-9644-c99f8b463748"
+    },
+    {
+      "disabledPlans": [],
+      "skuId": "f9602137-2203-447b-9fff-41b36e08ce5d"
+    }
+  ],
+  "assignedPlans": [
+    {
+      "assignedDateTime": "2025-09-27T03:21:14Z",
+      "capabilityStatus": "Deleted",
+      "service": "WindowsDefenderATP",
+      "servicePlanId": "871d91ec-ec1a-452b-a83f-bd76c7d770ef"
+    },
+    {
+      "assignedDateTime": "2025-09-27T03:19:08Z",
+      "capabilityStatus": "Deleted",
+      "service": "SCO",
+      "servicePlanId": "c1ec4a95-1f05-45b3-a911-aa3fa01094f5"
+    },
+    {
+      "assignedDateTime": "2025-09-26T21:59:07Z",
+      "capabilityStatus": "Enabled",
+      "service": "WindowsDefenderATP",
+      "servicePlanId": "36810a13-b903-490a-aa45-afbeb7540832"
+    },
+    {
+      "assignedDateTime": "2025-09-23T13:42:32Z",
+      "capabilityStatus": "Enabled",
+      "service": "AADPremiumService",
+      "servicePlanId": "e866a266-3cff-43a3-acca-0c90a7e00c8b"
+    },
+    {
+      "assignedDateTime": "2025-09-23T13:42:32Z",
+      "capabilityStatus": "Enabled",
+      "service": "EntraPremiumInternetAccess",
+      "servicePlanId": "8d23cb83-ab07-418f-8517-d7aca77307dc"
+    },
+    {
+      "assignedDateTime": "2025-09-23T13:42:32Z",
+      "capabilityStatus": "Enabled",
+      "service": "AADPremiumService",
+      "servicePlanId": "eec0eb4f-6444-4f95-aba0-50c24d67f998"
+    },
+    {
+      "assignedDateTime": "2025-09-23T13:42:32Z",
+      "capabilityStatus": "Enabled",
+      "service": "EntraPremiumPrivateAccess",
+      "servicePlanId": "f057aab1-b184-49b2-85c0-881b02a405c5"
+    }
+  ],
+  "authorizationInfo": {
+    "certificateUserIds": []
+  },
+  "cloudRealtimeCommunicationInfo": {
+    "isSipEnabled": null
+  },
+  "deviceKeys": [],
+  "identities": [
+    {
+      "signInType": "userPrincipalName",
+      "issuer": "busbeecorp.onmicrosoft.com",
+      "issuerAssignedId": "charlotte.carter@busbeecorp.onmicrosoft.com"
+    }
+  ],
+  "onPremisesExtensionAttributes": {
+    "extensionAttribute1": null,
+    "extensionAttribute2": null,
+    "extensionAttribute3": null,
+    "extensionAttribute4": null,
+    "extensionAttribute5": null,
+    "extensionAttribute6": null,
+    "extensionAttribute7": null,
+    "extensionAttribute8": null,
+    "extensionAttribute9": null,
+    "extensionAttribute10": null,
+    "extensionAttribute11": null,
+    "extensionAttribute12": null,
+    "extensionAttribute13": null,
+    "extensionAttribute14": null,
+    "extensionAttribute15": null
+  },
+  "onPremisesProvisioningErrors": [],
+  "onPremisesSipInfo": {
+    "isSipEnabled": false,
+    "sipDeploymentLocation": null,
+    "sipPrimaryAddress": null
+  },
+  "passwordProfile": {
+    "password": null,
+    "forceChangePasswordNextSignIn": true,
+    "forceChangePasswordNextSignInWithMfa": false
+  },
+  "provisionedPlans": [],
+  "serviceProvisioningErrors": [],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#users(extensions())/$entity"
+}

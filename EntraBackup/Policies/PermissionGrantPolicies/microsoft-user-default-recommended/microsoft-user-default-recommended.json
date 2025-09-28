@@ -1,0 +1,53 @@
+{
+  "id": "microsoft-user-default-recommended",
+  "displayName": "Microsoft User Default Recommended Policy",
+  "description": "Permissions consentable based on Microsoft's current recommendations.",
+  "includes@odata.context": "https://graph.microsoft.com/v1.0/$metadata#policies/permissionGrantPolicies('microsoft-user-default-recommended')/includes",
+  "includes": [
+    {
+      "id": "939e5649-d754-4aa4-90df-8bfb027d11cc",
+      "permissionClassification": "all",
+      "permissionType": "delegated",
+      "resourceApplication": "any",
+      "permissions": [
+        "all"
+      ],
+      "clientApplicationIds": [
+        "all"
+      ],
+      "clientApplicationTenantIds": [
+        "all"
+      ],
+      "clientApplicationPublisherIds": [
+        "all"
+      ],
+      "clientApplicationsFromVerifiedPublisherOnly": false
+    }
+  ],
+  "excludes@odata.context": "https://graph.microsoft.com/v1.0/$metadata#policies/permissionGrantPolicies('microsoft-user-default-recommended')/excludes",
+  "excludes": [
+    {
+      "id": "716520dc-e24e-4bb8-880d-de5811827dcc",
+      "permissionClassification": "all",
+      "permissionType": "delegated",
+      "resourceApplication": "00000003-0000-0000-c000-000000000000",
+      "permissions": [
+        "89fe6a52-be36-487e-b7d8-d061c450a026",
+        "205e70e5-aba6-4c52-a976-6d2d46c48043",
+        "863451e7-0667-486c-a5d6-d135439485f0",
+        "df85f4d6-205c-4ac5-a5ea-6bf408dba283"
+      ],
+      "clientApplicationIds": [
+        "all"
+      ],
+      "clientApplicationTenantIds": [
+        "all"
+      ],
+      "clientApplicationPublisherIds": [
+        "all"
+      ],
+      "clientApplicationsFromVerifiedPublisherOnly": false
+    }
+  ],
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#policies/permissionGrantPolicies/$entity"
+}

@@ -1,0 +1,9 @@
+{
+  "clientId": "62008d65-28bf-4229-bdb0-29510c6e44a2",
+  "consentType": "AllPrincipals",
+  "id": "ZY0AYr8oKUK9sClRDG5EojZpMKwNJZZIs5LQVhale1s",
+  "principalId": null,
+  "resourceId": "ac306936-250d-4896-b392-d05616a57b5b",
+  "scope": " Group.ReadWrite.All openid profile offline_access DeviceManagementServiceConfig.ReadWrite.All DeviceManagementManagedDevices.ReadWrite.All Device.ReadWrite.All GroupMember.ReadWrite.All email User.ReadWrite.All Directory.ReadWrite.All LicenseAssignment.ReadWrite.All DeviceManagementConfiguration.Read.All Device.Read.All DeviceManagementApps.Read.All DeviceManagementManagedDevices.PrivilegedOperations.All DeviceManagementApps.ReadWrite.All DeviceManagementConfiguration.ReadWrite.All Directory.Read.All Policy.Read.All IdentityProvider.Read.All Organization.Read.All User.Read.All EntitlementManagement.Read.All UserAuthenticationMethod.Read.All IdentityUserFlow.Read.All APIConnectors.Read.All AccessReview.Read.All Agreement.Read.All Policy.Read.PermissionGrant PrivilegedAccess.Read.AzureResources PrivilegedAccess.Read.AzureAD Application.Read.All OnPremDirectorySynchronization.Read.All",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#oauth2PermissionGrants/$entity"
+}

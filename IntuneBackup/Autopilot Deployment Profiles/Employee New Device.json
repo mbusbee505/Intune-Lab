@@ -1,0 +1,38 @@
+{
+  "locale": "os-default",
+  "deviceNameTemplate": "%SERIAL%-W",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "extractHardwareHash": false,
+  "createdDateTime": "2025-09-21T20:56:27.2505435Z",
+  "lastModifiedDateTime": "2025-09-21T21:19:47.432517Z",
+  "language": "os-default",
+  "preprovisioningAllowed": false,
+  "enrollmentStatusScreenSettings": null,
+  "outOfBoxExperienceSetting": {
+    "escapeLinkHidden": true,
+    "eulaHidden": true,
+    "privacySettingsHidden": true,
+    "keyboardSelectionPageSkipped": true,
+    "userType": "standard",
+    "deviceUsageType": "singleUser"
+  },
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "enableWhiteGlove": false,
+  "description": "Windows 11 Employee Config",
+  "managementServiceAppId": null,
+  "outOfBoxExperienceSettings": {
+    "hideEscapeLink": true,
+    "userType": "standard",
+    "skipKeyboardSelectionPage": true,
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "deviceUsageType": "singleUser"
+  },
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles/$entity",
+  "hardwareHashExtractionEnabled": false,
+  "deviceType": "windowsPc",
+  "displayName": "Employee New Device",
+  "id": "15ccc238-f3b1-4ad9-a5b6-fcc714a8bfcc"
+}

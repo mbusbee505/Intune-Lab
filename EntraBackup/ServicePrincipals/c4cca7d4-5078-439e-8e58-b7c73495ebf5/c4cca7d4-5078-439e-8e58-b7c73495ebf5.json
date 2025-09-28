@@ -1,0 +1,78 @@
+{
+  "id": "c4cca7d4-5078-439e-8e58-b7c73495ebf5",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "o365.servicecommunications.microsoft.com",
+  "appDescription": null,
+  "appId": "cb1bda4c-1213-4e8b-911a-0a8c83c5d3b7",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:48:02Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "o365.servicecommunications.microsoft.com",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "cb1bda4c-1213-4e8b-911a-0a8c83c5d3b7",
+    "https://o365.servicecommunications.microsoft.com"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableLegacyUserImpersonationClient",
+    "disableLegacyUserImpersonationResource"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "A placeholder scope for preauth",
+      "displayName": "PreAuthPlaceholder",
+      "id": "25b4ea33-257e-47f5-b778-8df9c7e10548",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "PreAuthPlaceholder"
+    }
+  ],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "A placeholder scope for preauth",
+      "adminConsentDisplayName": "PreAuthPlaceholder",
+      "id": "25b4ea33-257e-47f5-b778-8df9c7e10548",
+      "isEnabled": true,
+      "type": "Admin",
+      "userConsentDescription": "A placeholder scope for preauth for your tenant on your behalf",
+      "userConsentDisplayName": "PreAuthPlaceholder",
+      "value": "PreAuthPlaceholder"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

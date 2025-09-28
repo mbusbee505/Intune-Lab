@@ -1,0 +1,67 @@
+{
+  "id": "0db6d891-5442-4d93-b40c-c601b4821857",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Microsoft Intune AAD BitLocker Recovery Key Integration",
+  "appDescription": null,
+  "appId": "ccf4d8df-75ce-4107-8ea5-7afd618d4d8a",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-28T17:11:32Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Microsoft Intune AAD BitLocker Recovery Key Integration",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "ccf4d8df-75ce-4107-8ea5-7afd618d4d8a"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableAcceptingTenantedPassthroughTokens",
+    "disableRequestingTenantedPassthroughTokens",
+    "disableLegacyUserImpersonationClient",
+    "disableLegacyUserImpersonationResource"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "Allows user to view their BitLocker recovery keys",
+      "adminConsentDisplayName": "Read BitLocker recovery keys",
+      "id": "ecff1a9d-e6bb-4e01-9136-c8825bbfceb3",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow app to read your BitLocker recovery keys",
+      "userConsentDisplayName": "Read BitLocker recovery keys",
+      "value": "IntuneAADBitLockerRecoveryKey.Read"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

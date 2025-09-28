@@ -1,0 +1,8 @@
+{
+  "id": "1268e407-75c7-4c46-9bf6-abc58c74e998",
+  "deletedDateTime": null,
+  "description": "Can manage all aspects of Microsoft Entra ID and Microsoft services that use Microsoft Entra identities.",
+  "displayName": "Global Administrator",
+  "roleTemplateId": "62e90394-69f5-4237-9190-012177145e10",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#directoryRoles/$entity"
+}

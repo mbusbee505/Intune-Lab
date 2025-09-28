@@ -1,0 +1,63 @@
+{
+  "id": "0f3da913-4dbb-4339-85f8-44cff777680c",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "CloudLicensingSystem",
+  "appDescription": null,
+  "appId": "de247707-4e4a-47d6-89fd-3c632f870b34",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-20T16:10:48Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "CloudLicensingSystem",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "de247707-4e4a-47d6-89fd-3c632f870b34",
+    "https://cloudlicensing.microsoft.com"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "this allows admin to view or assign asset",
+      "adminConsentDisplayName": "Read or Write all assets",
+      "id": "703f6192-642a-4e6b-8f6b-0820e6127784",
+      "isEnabled": true,
+      "type": "Admin",
+      "userConsentDescription": "this allows admin to view or assign asset",
+      "userConsentDisplayName": "Read or Write all assets",
+      "value": "Assets.ReadWrite.All"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

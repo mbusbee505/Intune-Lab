@@ -1,0 +1,74 @@
+{
+  "id": "21b0942c-c8eb-48b7-a251-e1b3d69025a0",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Device Registration Service",
+  "appDescription": null,
+  "appId": "01cb2876-7ebd-4aa4-9cc9-d28bd4d359a9",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:48:32Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Device Registration Service",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://login.windows.net/WebApp/CloudDomainJoin/4",
+    "https://login.windows.net/WebApp/CloudDomainJoin/3",
+    "https://login.microsoftonline.com/WebApp/CloudDomainJoin/4",
+    "https://login.microsoftonline.com/WebApp/CloudDomainJoin/3",
+    "https://enterpriseregistration.windows.net/enrollmentserver/otaprofile/",
+    "https://enterpriseregistration.microsoftonline.us/enrollmentserver/otaprofile/"
+  ],
+  "servicePrincipalNames": [
+    "01cb2876-7ebd-4aa4-9cc9-d28bd4d359a9",
+    "urn:ms-drs:enterpriseregistration.microsoftonline.us",
+    "urn:ms-drs:enterpriseregistration.windows.net"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableAcceptingTenantedPassthroughTokens",
+    "disableRequestingTenantedPassthroughTokens"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "Allow the application permissions to delete any device registered to the signed-in user",
+      "adminConsentDisplayName": "User can delete devices that belong to them",
+      "id": "086327cd-9afe-4777-8341-b136a1866bb3",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to delete your devices on your behalf",
+      "userConsentDisplayName": "Delete devices that belong to me",
+      "value": "self_service_device_delete"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

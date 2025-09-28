@@ -1,0 +1,79 @@
+{
+  "id": "36831160-90f4-4b80-ae75-fd1355f0e335",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "SecOps for Security Copilot",
+  "appDescription": null,
+  "appId": "3e28acb6-7793-4fff-9fcf-fb14fbaf42a9",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-26T21:43:19Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "SecOps for Security Copilot",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "3e28acb6-7793-4fff-9fcf-fb14fbaf42a9",
+    "api://3e28acb6-7793-4fff-9fcf-fb14fbaf42a9"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableLegacyUserImpersonationClient",
+    "disableLegacyUserImpersonationResource",
+    "GitCreatedApp"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "Allows Agents to read and write USX Agent exposed data.",
+      "displayName": "Read and write all USX Agent exposed data",
+      "id": "9cbb4289-4c67-42b1-8235-6d4b5eaea452",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "USX.ReadWrite.All"
+    },
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "Allows the app to read XDR and Sentinel data and update Guided Response tasks.",
+      "displayName": "GAIA.ReadWrite",
+      "id": "fd87d3ee-3d17-48f9-aaef-ebb83d353d86",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "GAIA.ReadWrite"
+    }
+  ],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

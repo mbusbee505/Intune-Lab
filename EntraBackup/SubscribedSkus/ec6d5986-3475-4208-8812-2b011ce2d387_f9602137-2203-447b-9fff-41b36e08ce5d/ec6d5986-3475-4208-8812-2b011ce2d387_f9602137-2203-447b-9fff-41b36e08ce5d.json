@@ -1,0 +1,57 @@
+{
+  "accountName": "busbeecorp",
+  "accountId": "ec6d5986-3475-4208-8812-2b011ce2d387",
+  "appliesTo": "User",
+  "capabilityStatus": "Enabled",
+  "consumedUnits": 25,
+  "id": "ec6d5986-3475-4208-8812-2b011ce2d387_f9602137-2203-447b-9fff-41b36e08ce5d",
+  "skuId": "f9602137-2203-447b-9fff-41b36e08ce5d",
+  "skuPartNumber": "Microsoft_Entra_Suite",
+  "subscriptionIds": [
+    "3d435e42-0a47-46ef-8b09-6b5316f683eb"
+  ],
+  "prepaidUnits": {
+    "enabled": 25,
+    "suspended": 0,
+    "warning": 0,
+    "lockedOut": 0
+  },
+  "servicePlans": [
+    {
+      "servicePlanId": "aae826b7-14cd-4691-8178-2b312f7072ea",
+      "servicePlanName": "Verifiable_Credentials_Service_Request",
+      "servicePlanType": "VerifiableCredentialsServiceRequest",
+      "provisioningStatus": "Success",
+      "appliesTo": "Company"
+    },
+    {
+      "servicePlanId": "eec0eb4f-6444-4f95-aba0-50c24d67f998",
+      "servicePlanName": "AAD_PREMIUM_P2",
+      "servicePlanType": "AADPremiumService",
+      "provisioningStatus": "Success",
+      "appliesTo": "User"
+    },
+    {
+      "servicePlanId": "f057aab1-b184-49b2-85c0-881b02a405c5",
+      "servicePlanName": "Entra_Premium_Private_Access",
+      "servicePlanType": "EntraPremiumPrivateAccess",
+      "provisioningStatus": "Success",
+      "appliesTo": "User"
+    },
+    {
+      "servicePlanId": "8d23cb83-ab07-418f-8517-d7aca77307dc",
+      "servicePlanName": "Entra_Premium_Internet_Access",
+      "servicePlanType": "EntraPremiumInternetAccess",
+      "provisioningStatus": "Success",
+      "appliesTo": "User"
+    },
+    {
+      "servicePlanId": "e866a266-3cff-43a3-acca-0c90a7e00c8b",
+      "servicePlanName": "Entra_Identity_Governance",
+      "servicePlanType": "AADPremiumService",
+      "provisioningStatus": "Success",
+      "appliesTo": "User"
+    }
+  ],
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#subscribedSkus/$entity"
+}

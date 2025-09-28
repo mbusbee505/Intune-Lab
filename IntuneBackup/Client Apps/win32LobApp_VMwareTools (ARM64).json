@@ -1,0 +1,110 @@
+{
+  "activeUninstallScript": null,
+  "publishingState": "published",
+  "msiInformation": null,
+  "minimumNumberOfProcessors": null,
+  "allowAvailableUninstall": false,
+  "allowedArchitectures": null,
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+  "notes": "",
+  "minimumSupportedWindowsRelease": "Windows11_21H2",
+  "largeIcon": null,
+  "installCommandLine": "setup.exe /S /v \"/qn REBOOT=R ADDLOCAL=ALL\"",
+  "privacyInformationUrl": null,
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "requirementRules": [],
+  "applicableArchitectures": "none",
+  "size": 41397584,
+  "installExperience": {
+    "deviceRestartBehavior": "allow",
+    "maxRunTimeInMinutes": 60,
+    "runAsAccount": "system"
+  },
+  "minimumFreeDiskSpaceInMB": null,
+  "lastModifiedDateTime": "2025-09-26T16:12:45.4080169Z",
+  "minimumSupportedOperatingSystem": {
+    "v10_1903": false,
+    "v10_1803": false,
+    "v10_2004": false,
+    "v10_2H20": false,
+    "v10_1607": false,
+    "v10_21H1": false,
+    "v10_1709": false,
+    "v10_1809": false,
+    "v8_1": false,
+    "v10_1909": false,
+    "v10_0": false,
+    "v10_1703": false,
+    "v8_0": false
+  },
+  "uninstallCommandLine": "setup.exe /S /v \"/qn REMOVE=ALL REBOOT=R\"",
+  "fileName": "setup.intunewin",
+  "uploadState": 1,
+  "displayName": "VMwareTools (ARM64)",
+  "activeInstallScript": null,
+  "rules": [
+    {
+      "check32BitOn64System": true,
+      "comparisonValue": null,
+      "operationType": "exists",
+      "path": "C:\\Program Files\\VMware\\VMware Tools\\",
+      "operator": "notConfigured",
+      "@odata.type": "#microsoft.graph.win32LobAppFileSystemRule",
+      "ruleType": "detection",
+      "fileOrFolderName": "vmtoolsd.exe"
+    }
+  ],
+  "publisher": "VMware",
+  "minimumCpuSpeedInMHz": null,
+  "detectionRules": [
+    {
+      "fileOrFolderName": "vmtoolsd.exe",
+      "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+      "path": "C:\\Program Files\\VMware\\VMware Tools\\",
+      "check32BitOn64System": true,
+      "operator": "notConfigured",
+      "detectionValue": null,
+      "detectionType": "exists"
+    }
+  ],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    }
+  ],
+  "displayVersion": "",
+  "description": "VMwareTools (ARM64)",
+  "setupFilePath": "setup.exe",
+  "createdDateTime": "2025-09-26T02:37:59.6961251Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "dependentAppCount": 0,
+  "committedContentVersion": "1",
+  "developer": "",
+  "isFeatured": false,
+  "isAssigned": false,
+  "informationUrl": null,
+  "id": "b82065f8-8a95-4e1e-9e4f-7f91d6afc67e",
+  "supersedingAppCount": 0,
+  "supersededAppCount": 0,
+  "minimumMemoryInMB": null,
+  "owner": ""
+}

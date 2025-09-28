@@ -1,0 +1,16 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#authenticationMethodConfigurations/$entity",
+  "@odata.type": "#microsoft.graph.voiceAuthenticationMethodConfiguration",
+  "id": "Voice",
+  "state": "disabled",
+  "isOfficePhoneAllowed": false,
+  "excludeTargets": [],
+  "includeTargets@odata.context": "https://graph.microsoft.com/v1.0/$metadata#policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Voice')/microsoft.graph.voiceAuthenticationMethodConfiguration/includeTargets",
+  "includeTargets": [
+    {
+      "targetType": "group",
+      "id": "all_users",
+      "isRegistrationRequired": false
+    }
+  ]
+}

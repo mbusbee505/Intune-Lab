@@ -1,0 +1,12 @@
+{
+  "id": "DaeY_hOSCkSzHUUlxF4rrLVvMGQaZE9Isv8NeQXgZV8",
+  "deletedDateTime": null,
+  "appRoleId": "00000000-0000-0000-0000-000000000000",
+  "createdDateTime": "2025-09-20T18:18:14.4801877Z",
+  "principalDisplayName": "Michael Busbee",
+  "principalId": "fe98a70d-9213-440a-b31d-4525c45e2bac",
+  "principalType": "User",
+  "resourceDisplayName": "Microsoft Graph Command Line Tools",
+  "resourceId": "62008d65-28bf-4229-bdb0-29510c6e44a2",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#appRoleAssignments/$entity"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "c934d8f6-896a-4a1a-9646-5f010398b736",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "approximateLastSignInDateTime": "2025-09-25T12:38:39Z",
+  "complianceExpirationDateTime": null,
+  "createdDateTime": "2025-09-25T12:38:40Z",
+  "deviceCategory": null,
+  "deviceId": "eed5062b-d830-4c77-b4fb-432c31b858e9",
+  "deviceMetadata": null,
+  "deviceOwnership": "Company",
+  "deviceVersion": 2,
+  "displayName": "B13C30E6E4D56-W",
+  "domainName": null,
+  "enrollmentProfileName": "Employee New Device",
+  "enrollmentType": "AzureDomainJoined",
+  "externalSourceName": null,
+  "isCompliant": false,
+  "isManaged": true,
+  "isManagementRestricted": null,
+  "isRooted": false,
+  "managementType": "MDM",
+  "manufacturer": "VMware, Inc.",
+  "mdmAppId": "0000000a-0000-0000-c000-000000000000",
+  "model": "VMware20,1",
+  "onPremisesLastSyncDateTime": null,
+  "onPremisesSyncEnabled": null,
+  "operatingSystem": "Windows",
+  "operatingSystemVersion": "10.0.26100.6584",
+  "hostnames": [
+    "B13C30E6E4D56-W"
+  ],
+  "physicalIds": [
+    "[USER-HWID]:fe98a70d-9213-440a-b31d-4525c45e2bac:6755491014777683",
+    "[USER-GID]:fe98a70d-9213-440a-b31d-4525c45e2bac:6966587495005649",
+    "[GID]:g:6966587495005649",
+    "[ZTDID]:2742cb7c-d05f-4bb9-8f19-6f11a801ce8c",
+    "[HWID]:h:6755491014777683"
+  ],
+  "profileType": "RegisteredDevice",
+  "registrationDateTime": "2025-09-25T17:24:50Z",
+  "sourceType": null,
+  "systemLabels": [],
+  "trustType": "AzureAd",
+  "alternativeSecurityIds": [
+    {
+      "type": 2,
+      "identityProvider": null,
+      "key": "WAA1ADAAOQA6ADwAUwBIAEEAMQAtAFQAUAAtAFAAVQBCAEsARQBZAD4AOAA4ADkARAAyADMAQgA5ADcAMwBCADYARgBFADQANwAwADAAOQA3ADUAMwA0ADMAQQBEAEQAQgA5ADQAQgBEAEMAOABBADkARQA1ADcAQgBpAGUATwBTAFEARABhAFoAcABZAEQARABpAGoAVABpAG4ARABJAFAAYgBKAHQALwBMADgAZgBFAGcAZwBiAFQAVwBLADYATgB2AHMAcQBoADEAQQBFAD0A"
+    }
+  ],
+  "extensionAttributes": {
+    "extensionAttribute1": null,
+    "extensionAttribute2": null,
+    "extensionAttribute3": null,
+    "extensionAttribute4": null,
+    "extensionAttribute5": null,
+    "extensionAttribute6": null,
+    "extensionAttribute7": null,
+    "extensionAttribute8": null,
+    "extensionAttribute9": null,
+    "extensionAttribute10": null,
+    "extensionAttribute11": null,
+    "extensionAttribute12": null,
+    "extensionAttribute13": null,
+    "extensionAttribute14": null,
+    "extensionAttribute15": null
+  },
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#devices/$entity"
+}

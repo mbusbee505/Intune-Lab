@@ -1,0 +1,16 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#authenticationMethodConfigurations/$entity",
+  "@odata.type": "#microsoft.graph.smsAuthenticationMethodConfiguration",
+  "id": "Sms",
+  "state": "disabled",
+  "excludeTargets": [],
+  "includeTargets@odata.context": "https://graph.microsoft.com/v1.0/$metadata#policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Sms')/microsoft.graph.smsAuthenticationMethodConfiguration/includeTargets",
+  "includeTargets": [
+    {
+      "targetType": "group",
+      "id": "all_users",
+      "isRegistrationRequired": false,
+      "isUsableForSignIn": false
+    }
+  ]
+}

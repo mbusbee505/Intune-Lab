@@ -1,0 +1,132 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#policies/crossTenantAccessPolicy/default/$entity",
+  "id": "f250f7fc-c869-46c2-b786-10dcf9a16f3a",
+  "isServiceDefault": true,
+  "inboundTrust": {
+    "isMfaAccepted": false,
+    "isCompliantDeviceAccepted": false,
+    "isHybridAzureADJoinedDeviceAccepted": false,
+    "isCompliantNetworkAccepted": false
+  },
+  "b2bCollaborationOutbound": {
+    "usersAndGroups": {
+      "accessType": "allowed",
+      "targets": [
+        {
+          "target": "AllUsers",
+          "targetType": "user"
+        }
+      ]
+    },
+    "applications": {
+      "accessType": "allowed",
+      "targets": [
+        {
+          "target": "AllApplications",
+          "targetType": "application"
+        }
+      ]
+    }
+  },
+  "b2bCollaborationInbound": {
+    "usersAndGroups": {
+      "accessType": "allowed",
+      "targets": [
+        {
+          "target": "AllUsers",
+          "targetType": "user"
+        }
+      ]
+    },
+    "applications": {
+      "accessType": "allowed",
+      "targets": [
+        {
+          "target": "AllApplications",
+          "targetType": "application"
+        }
+      ]
+    }
+  },
+  "b2bDirectConnectOutbound": {
+    "usersAndGroups": {
+      "accessType": "blocked",
+      "targets": [
+        {
+          "target": "AllUsers",
+          "targetType": "user"
+        }
+      ]
+    },
+    "applications": {
+      "accessType": "blocked",
+      "targets": [
+        {
+          "target": "AllApplications",
+          "targetType": "application"
+        }
+      ]
+    }
+  },
+  "b2bDirectConnectInbound": {
+    "usersAndGroups": {
+      "accessType": "blocked",
+      "targets": [
+        {
+          "target": "AllUsers",
+          "targetType": "user"
+        }
+      ]
+    },
+    "applications": {
+      "accessType": "blocked",
+      "targets": [
+        {
+          "target": "AllApplications",
+          "targetType": "application"
+        }
+      ]
+    }
+  },
+  "crossCloudMeetingConfiguration": {
+    "inboundAllowed": false,
+    "outboundAllowed": false
+  },
+  "automaticUserConsentSettings": {
+    "inboundAllowed": false,
+    "outboundAllowed": false
+  },
+  "protectedContentSharing": {
+    "inboundAllowed": true,
+    "outboundAllowed": true
+  },
+  "tenantRestrictions": {
+    "devices": null,
+    "usersAndGroups": {
+      "accessType": "blocked",
+      "targets": [
+        {
+          "target": "AllUsers",
+          "targetType": "user"
+        }
+      ]
+    },
+    "applications": {
+      "accessType": "blocked",
+      "targets": [
+        {
+          "target": "AllApplications",
+          "targetType": "application"
+        }
+      ]
+    }
+  },
+  "invitationRedemptionIdentityProviderConfiguration": {
+    "primaryIdentityProviderPrecedenceOrder": [
+      "azureActiveDirectory",
+      "externalFederation",
+      "socialIdentityProviders"
+    ],
+    "fallbackIdentityProvider": "defaultConfiguredIdp"
+  }
+}

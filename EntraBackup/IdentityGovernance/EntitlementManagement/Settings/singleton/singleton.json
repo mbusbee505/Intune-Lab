@@ -1,0 +1,6 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identityGovernance/entitlementManagement/settings/$entity",
+  "id": "singleton",
+  "externalUserLifecycleAction": "BlockSignInAndDelete",
+  "daysUntilExternalUserDeletedAfterBlocked": 30
+}

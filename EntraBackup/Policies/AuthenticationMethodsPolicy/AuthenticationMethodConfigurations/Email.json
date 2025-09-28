@@ -1,0 +1,16 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#authenticationMethodConfigurations/$entity",
+  "@odata.type": "#microsoft.graph.emailAuthenticationMethodConfiguration",
+  "id": "Email",
+  "state": "enabled",
+  "allowExternalIdToUseEmailOtp": "default",
+  "excludeTargets": [],
+  "includeTargets@odata.context": "https://graph.microsoft.com/v1.0/$metadata#policies/authenticationMethodsPolicy/authenticationMethodConfigurations('Email')/microsoft.graph.emailAuthenticationMethodConfiguration/includeTargets",
+  "includeTargets": [
+    {
+      "targetType": "group",
+      "id": "all_users",
+      "isRegistrationRequired": false
+    }
+  ]
+}

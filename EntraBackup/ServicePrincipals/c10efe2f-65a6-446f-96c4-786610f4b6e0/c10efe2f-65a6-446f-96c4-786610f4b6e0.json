@@ -1,0 +1,81 @@
+{
+  "id": "c10efe2f-65a6-446f-96c4-786610f4b6e0",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Connectors",
+  "appDescription": null,
+  "appId": "48af08dc-f6d2-435f-b2a7-069abd99c086",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:47:57Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Connectors",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://login.microsoftonline.com/common/oauth2/nativeclient",
+    "https://outlook.office.com/connectors/signin-oidc",
+    "https://outlook.office.com/connectors/signin-yammer-oidc",
+    "https://outlook.office.com/connectors/signin-dynamics-oidc",
+    "https://outlook.office365.com/connectors/signin-oidc",
+    "https://outlook.office.com/connectors/signin-forms-oidc",
+    "https://outlook.office.com/connectors/signin-opaypartnerportal-oidc",
+    "https://outlook-sdf.office.com/mail/spaExtSSO.html",
+    "https://outlook.office365.com/mail/spaExtSSO.html",
+    "https://outlook.office.com/mail/spaExtSSO.html",
+    "https://outlook.cloud.microsoft/mail/spaExtSSO.html",
+    "https://sdf.outlook.cloud.microsoft/mail/spaExtSSO.html",
+    "ms-appx-web://Microsoft.AAD.BrokerPlugin/48af08dc-f6d2-435f-b2a7-069abd99c086"
+  ],
+  "servicePrincipalNames": [
+    "api://auth-63ff5842-2734-4f48-97a7-cb5a1385047a/48af08dc-f6d2-435f-b2a7-069abd99c086",
+    "48af08dc-f6d2-435f-b2a7-069abd99c086",
+    "https://outlook.office365.com/connectors"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [
+    "disableAcceptingTenantedPassthroughTokens",
+    "disableRequestingTenantedPassthroughTokens"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "Allows the app to create and manage connector configurations. The app would use the connector configuration to send actionable messages to your inbox or a group of your choice.",
+      "adminConsentDisplayName": "Read and write connector configurations",
+      "id": "ba9c6a98-63fd-487c-b835-c1f895764e25",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allows the app to create and manage connector configurations. The app would use the connector configuration to send actionable messages to your inbox or a group of your choice.",
+      "userConsentDisplayName": "Read and write connector configurations",
+      "value": "webhook.readwrite.all"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

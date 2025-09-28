@@ -1,0 +1,73 @@
+{
+  "id": "636837bc-ba9b-464b-be5d-5e27335f41f3",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "P2P Server",
+  "appDescription": null,
+  "appId": "47d99294-27cc-4a98-8cb3-3cd6a5d12255",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "ec6d5986-3475-4208-8812-2b011ce2d387",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-21T21:45:25Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "P2P Server",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [],
+  "servicePrincipalNames": [
+    "47d99294-27cc-4a98-8cb3-3cd6a5d12255",
+    "urn:p2p_cert"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMyOrg",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [
+    {
+      "customKeyIdentifier": "8F173A00B5D10E8817129D5197FADAE8AE285077",
+      "displayName": "CN=MS-Organization-P2P-Access [2025]",
+      "endDateTime": "2026-09-21T00:00:00Z",
+      "key": null,
+      "keyId": "27d87514-7b9c-455f-a293-5aa4af26c9a6",
+      "startDateTime": "2025-09-21T00:00:00Z",
+      "type": "AsymmetricX509Cert",
+      "usage": "Sign"
+    }
+  ],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [
+    {
+      "customKeyIdentifier": "8F173A00B5D10E8817129D5197FADAE8AE285077",
+      "displayName": "CN=MS-Organization-P2P-Access [2025]",
+      "endDateTime": "2026-09-21T00:00:00Z",
+      "hint": null,
+      "keyId": "27d87514-7b9c-455f-a293-5aa4af26c9a6",
+      "secretText": null,
+      "startDateTime": "2025-09-21T00:00:00Z"
+    }
+  ],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

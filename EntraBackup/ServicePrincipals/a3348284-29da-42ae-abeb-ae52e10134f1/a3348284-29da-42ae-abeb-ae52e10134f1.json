@@ -1,0 +1,163 @@
+{
+  "id": "a3348284-29da-42ae-abeb-ae52e10134f1",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "M365PurvieweDiscoveryService",
+  "appDescription": null,
+  "appId": "0d38933a-0bbd-41ca-9ebd-28c4b5ba7cb7",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:47:58Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Office365 Zoom",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://aedrouting.ediscovery.office.com",
+    "https://zoom-cs-prodeuss1.ediscovery.office.com",
+    "https://cus01aedrouting.ediscovery.office.com",
+    "https://office365zoom.cloudapp.net",
+    "https://zoom-cs-prodeuss1.cloudapp.net",
+    "https://wus2.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://wus.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://eus.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://cus.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://weur.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://seas.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://ncus.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://scus.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://gcc.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://routing-gcc01.usgovcloudapp.net/",
+    "https://neur.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://jpe.proxyservice.ediscovery.office365.com/signin-oidc",
+    "https://sdf1.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://sdf2.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://msit1.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://msit2.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://nam1.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://nam2.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://eur1.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://eur2.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://apc1.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://apc2.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://gccm1.proxyservice.ediscoverysvc.office365.us/signin-oidc",
+    "https://gccm2.proxyservice.ediscoverysvc.office365.us/signin-oidc",
+    "https://sdf.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://msit.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://nam.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://eur.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://apc.proxyservice.ediscovery.svc.cloud.microsoft/signin-oidc",
+    "https://gccm.proxyservice.ediscoverysvc.office365.us/signin-oidc",
+    "https://gccm.proxyservice.ediscovery.gcc.svc.cloud.microsoft/signin-oidc"
+  ],
+  "servicePrincipalNames": [
+    "0d38933a-0bbd-41ca-9ebd-28c4b5ba7cb7",
+    "https://zoom-ppe.cloudapp.net",
+    "https://office365zoom.cloudapp.net",
+    "https://aedrouting.ediscovery.office.com",
+    "https://l4office365zoom.usgovcloudapp.net",
+    "https://l5office365zoom.usgovcloudapp.net",
+    "https://aedglobal.trafficmanager.net",
+    "https://aedsdf.trafficmanager.net",
+    "https://graphservice.ediscovery.office365.com",
+    "https://gcch.graphservice.ediscovery.office365.us",
+    "https://dod.graphservice.ediscovery.office365.us",
+    "https://cpfdwebservicecloudapp.net"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "Allow app to submit jobs to eDiscovery.",
+      "displayName": "eDiscovery.Jobs.Write",
+      "id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "eDiscovery.Jobs.Write"
+    },
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "Allow app to read properties of jobs submitted to eDiscovery.",
+      "displayName": "eDiscovery.Jobs.Read",
+      "id": "0f062bc7-6f95-469a-810f-d846e6cbba44",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "eDiscovery.Jobs.Read"
+    }
+  ],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "Allow app to submit jobs to eDiscovery.",
+      "adminConsentDisplayName": "eDiscovery.Jobs.Write",
+      "id": "5faac7a2-ab08-4049-aece-ab2b4de5f59e",
+      "isEnabled": true,
+      "type": "Admin",
+      "userConsentDescription": "Allow app to submit jobs to eDiscovery.",
+      "userConsentDisplayName": "eDiscovery.Jobs.Write",
+      "value": "eDiscovery.Jobs.Write"
+    },
+    {
+      "adminConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
+      "adminConsentDisplayName": "eDiscovery.Jobs.Read",
+      "id": "0f062bc7-6f95-469a-810f-d846e6cbba44",
+      "isEnabled": true,
+      "type": "Admin",
+      "userConsentDescription": "Allow app to read properties of jobs submitted to eDiscovery.",
+      "userConsentDisplayName": "eDiscovery.Jobs.Read",
+      "value": "eDiscovery.Jobs.Read"
+    },
+    {
+      "adminConsentDescription": "Allow app to access compliance connector",
+      "adminConsentDisplayName": "Connector.Read",
+      "id": "06d98eed-6e1d-47d1-af81-f69ca60a0e97",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow app to access compliance connector",
+      "userConsentDisplayName": "Connector.Read",
+      "value": "Connector.Read"
+    },
+    {
+      "adminConsentDescription": "Allow app to download the ediscovery exported data",
+      "adminConsentDisplayName": "eDiscovery.Export.Download",
+      "id": "df0d2e21-1705-4006-b158-1114609fdfbd",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow app to download the ediscovery exported data",
+      "userConsentDisplayName": "eDiscovery.Export.Download",
+      "value": "eDiscovery.Export.Download"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

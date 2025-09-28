@@ -1,0 +1,87 @@
+{
+  "lastModifiedDateTime": "2025-09-23T18:15:47.0480526Z",
+  "technologies": "mdm",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "description": "",
+  "createdDateTime": "2025-09-23T17:53:27.9265072Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "templateReference": {
+    "templateDisplayName": "Account Protection",
+    "templateDisplayVersion": "Version 1",
+    "templateFamily": "endpointSecurityAccountProtection",
+    "templateId": "fcef01f2-439d-4c3f-9184-823fd6e97646_1"
+  },
+  "name": "Disable Windows Hello",
+  "settingCount": 2,
+  "id": "aadb460c-5a8c-4b44-b402-43f87848f35c",
+  "creationSource": null,
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "settingDefinitionId": "user_vendor_msft_passportforwork_{tenantid}",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "7b19da4c-18c1-44c6-a422-2e928d376c4f"
+        },
+        "groupSettingCollectionValue": [
+          {
+            "settingValueTemplateReference": null,
+            "children": [
+              {
+                "settingDefinitionId": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingInstanceTemplateReference": {
+                  "settingInstanceTemplateId": "ac89a853-79f9-43d6-b8e4-084eeb21de0c"
+                },
+                "choiceSettingValue": {
+                  "settingValueTemplateReference": {
+                    "useTemplateDefault": false,
+                    "settingValueTemplateId": "5015b5dd-acaf-461c-88e6-a4fff2011e6f"
+                  },
+                  "children": [],
+                  "value": "user_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_false"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "settingDefinitionId": "device_vendor_msft_passportforwork_{tenantid}",
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "0ece2bdc-57c1-4be9-93e9-ac9c395a9c94"
+        },
+        "groupSettingCollectionValue": [
+          {
+            "settingValueTemplateReference": null,
+            "children": [
+              {
+                "settingDefinitionId": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                "settingInstanceTemplateReference": {
+                  "settingInstanceTemplateId": "4023eea0-5289-42de-a970-9b5759460de4"
+                },
+                "choiceSettingValue": {
+                  "settingValueTemplateReference": {
+                    "useTemplateDefault": false,
+                    "settingValueTemplateId": "92982814-15da-4812-8bbb-32c33f379651"
+                  },
+                  "children": [],
+                  "value": "device_vendor_msft_passportforwork_{tenantid}_policies_usepassportforwork_false"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "222dc67c-89b5-443f-b7a8-cfe0e0eea738",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "CPIM Service",
+  "appDescription": null,
+  "appId": "bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T23:13:43Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "CPIM Service",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://*.cpim.windows.net/*",
+    "brk-c44b4083-3bb0-49c1-b47d-974e53cbdf3c://rc.portal.azure.com",
+    "brk-c44b4083-3bb0-49c1-b47d-974e53cbdf3c://canary-ms.portal.azure.com",
+    "brk-c44b4083-3bb0-49c1-b47d-974e53cbdf3c://ms.portal.azure.com",
+    "brk-c44b4083-3bb0-49c1-b47d-974e53cbdf3c://preview.portal.azure.com",
+    "brk-c44b4083-3bb0-49c1-b47d-974e53cbdf3c://canary.portal.azure.com",
+    "brk-c44b4083-3bb0-49c1-b47d-974e53cbdf3c://portal.azure.com",
+    "https://proxy.b2clogin.com/tenantredirect/authresp",
+    "https://login.microsoftonline.com/te/tenantredirect/authresp",
+    "https://te.cpim.windows.net/tenantredirect/authresp"
+  ],
+  "servicePrincipalNames": [
+    "https://*.cpim.windows.net/",
+    "bb2a2e3a-c5e7-4f0a-88e0-8e01fd3fc1f4"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "07271791-a9af-4c89-8d5b-5ca4ec2e17d4",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "O365 Demeter",
+  "appDescription": null,
+  "appId": "982bda36-4632-4165-a46a-9863b1bbcf7d",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-20T16:10:49Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "O365 Demeter",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://scu.commerceapi.office.net",
+    "https://scuprv.commerceapi.office.net",
+    "https://eus.commerceapi.office.net",
+    "https://weu.commerceapi.office.net",
+    "https://sea.commerceapi.office.net",
+    "https://eusprv.commerceapi.office.net",
+    "https://neu.commerceapi.office.net",
+    "https://eusprv2.commerceapi.office.net",
+    "https://eusprv3.commerceapi.office.net",
+    "https://aircapi.commerceapi.office.net",
+    "https://azuremarketplace.microsoft.com/commercial",
+    "https://azuremarketplace.microsoft.com/proposal",
+    "https://wus2.commerceapi.office.net",
+    "https://eus.commerceapi.officeppe.net",
+    "https://commerceapi.officeppe.net",
+    "https://commerceapi.office.net/v1/my-org/commercial/getindex",
+    "https://aircapi.commerceapi.office.net/v1/my-org/commercial/getindex",
+    "https://proposal.microsoft.com/v1/my-org/commercial/getindex",
+    "https://publisher-aircapi.1pp.microsoft.com/v1/my-org/commercial/getindex",
+    "https://eastus.publisher-aircapi.1pp.microsoft.com",
+    "https://westus.publisher-aircapi.1pp.microsoft.com",
+    "https://commerceapi.office.net/v1/my-org/proposal/getindex",
+    "https://aircapi.commerceapi.office.net/v1/my-org/proposal/getindex",
+    "https://aircapi.proposal.microsoft.com/v1/my-org/commercial/getindex",
+    "https://aircapi.proposal.microsoft.com/v1/my-org/proposal/getindex",
+    "https://proposal.microsoft.com/v1/my-org/proposal/getindex",
+    "https://publisher-aircapi.1pp.microsoft.com/v1/my-org/proposal/getindex"
+  ],
+  "servicePrincipalNames": [
+    "982bda36-4632-4165-a46a-9863b1bbcf7d",
+    "https://commerceapi.office.net",
+    "https://publisher-aircapi.1pp.microsoft.com"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "Application"
+      ],
+      "description": "Allows apps to start and get status of transitions.",
+      "displayName": "Transitions.ReadWrite",
+      "id": "226ed26c-f1f6-46f4-8892-54c1d9569817",
+      "isEnabled": true,
+      "origin": "Application",
+      "value": "Transitions.ReadWrite"
+    }
+  ],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "This allows teams users to access HAPI",
+      "adminConsentDisplayName": "teams",
+      "id": "e734da10-5e7c-48a0-a906-1a0d8b751264",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "This allows teams users to access HAPI",
+      "userConsentDisplayName": "teams",
+      "value": "teams"
+    },
+    {
+      "adminConsentDescription": "This allows users to read proposals",
+      "adminConsentDisplayName": "proposal.read",
+      "id": "59c7e161-b483-4c17-91db-1c8b632c90b1",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "This allows users to read proposals",
+      "userConsentDisplayName": "proposal.read",
+      "value": "proposal.read"
+    },
+    {
+      "adminConsentDescription": "Allows the pidl test application to access commerce api",
+      "adminConsentDisplayName": "pidlsdktest.read",
+      "id": "ed05fd6e-dbd5-4815-b368-18c07b9acc1e",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "This allows the pidl test application to access commerce api",
+      "userConsentDisplayName": "pidlsdktest.read",
+      "value": "pidlsdktest.read"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

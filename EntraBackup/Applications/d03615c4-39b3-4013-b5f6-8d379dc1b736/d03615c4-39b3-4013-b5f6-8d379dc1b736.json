@@ -1,0 +1,75 @@
+{
+  "id": "d03615c4-39b3-4013-b5f6-8d379dc1b736",
+  "deletedDateTime": null,
+  "appId": "47d99294-27cc-4a98-8cb3-3cd6a5d12255",
+  "applicationTemplateId": null,
+  "disabledByMicrosoftStatus": null,
+  "createdDateTime": "2025-09-21T21:45:24Z",
+  "displayName": "P2P Server",
+  "description": null,
+  "groupMembershipClaims": null,
+  "identifierUris": [
+    "urn:p2p_cert"
+  ],
+  "isDeviceOnlyAuthSupported": null,
+  "isFallbackPublicClient": false,
+  "nativeAuthenticationApisEnabled": null,
+  "notes": null,
+  "publisherDomain": "busbeecorp.onmicrosoft.com",
+  "serviceManagementReference": null,
+  "signInAudience": "AzureADMyOrg",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "uniqueName": null,
+  "samlMetadataUrl": null,
+  "defaultRedirectUri": null,
+  "certification": null,
+  "optionalClaims": null,
+  "servicePrincipalLockConfiguration": null,
+  "requestSignatureVerification": null,
+  "addIns": [],
+  "api": {
+    "acceptMappedClaims": null,
+    "knownClientApplications": [],
+    "requestedAccessTokenVersion": null,
+    "oauth2PermissionScopes": [],
+    "preAuthorizedApplications": []
+  },
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [],
+  "publicClient": {
+    "redirectUris": []
+  },
+  "requiredResourceAccess": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "web": {
+    "homePageUrl": null,
+    "logoutUrl": null,
+    "redirectUris": [],
+    "implicitGrantSettings": {
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false
+    },
+    "redirectUriSettings": []
+  },
+  "spa": {
+    "redirectUris": []
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applications/$entity"
+}

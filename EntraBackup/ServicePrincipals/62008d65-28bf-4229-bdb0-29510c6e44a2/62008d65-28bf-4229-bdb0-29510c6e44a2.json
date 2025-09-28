@@ -1,0 +1,57 @@
+{
+  "id": "62008d65-28bf-4229-bdb0-29510c6e44a2",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Microsoft Graph Command Line Tools",
+  "appDescription": null,
+  "appId": "14d82eec-204b-4c2f-b7e8-296a70dab67e",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "cdc5aeea-15c5-4db6-b079-fcadd2505dc2",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-20T18:18:14Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Microsoft Graph Command Line Tools",
+  "homepage": "https://docs.microsoft.com/en-us/graph/powershell/get-started",
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "ms-appx-web://microsoft.aad.brokerplugin/14d82eec-204b-4c2f-b7e8-296a70dab67e",
+    "http://localhost",
+    "https://login.microsoftonline.com/common/oauth2/nativeclient"
+  ],
+  "servicePrincipalNames": [
+    "14d82eec-204b-4c2f-b7e8-296a70dab67e"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADandPersonalMicrosoftAccount",
+  "tags": [
+    "WindowsAzureActiveDirectoryIntegratedApp"
+  ],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+    "supportUrl": null,
+    "termsOfServiceUrl": "https://docs.microsoft.com/en-us/legal/microsoft-apis/terms-of-use?context=graph/context"
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": "Microsoft Corporation",
+    "verifiedPublisherId": "5206095",
+    "addedDateTime": "2024-05-13T21:14:05Z"
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

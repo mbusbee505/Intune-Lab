@@ -1,0 +1,66 @@
+{
+  "id": "0d88e1e8-ffe7-4bfb-9ef3-c278d61ce761",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "Azure Resource Manager",
+  "appDescription": null,
+  "appId": "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:46:15Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "Azure Resource Manager",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": null,
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://management.core.windows.net/"
+  ],
+  "servicePrincipalNames": [
+    "797f4846-ba00-4fd7-ba43-dac1f8f63013",
+    "https://management.core.windows.net/",
+    "https://management.azure.com/"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "Allows the application to access Azure Resource Manager acting as users in the organization.",
+      "adminConsentDisplayName": "Access Azure Resource Manager as organization users",
+      "id": "41094075-9dad-400e-a0bd-54e686782033",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allows the application to access Azure Resource Manager as you.",
+      "userConsentDisplayName": "Access Azure Resource Manager as you",
+      "value": "user_impersonation"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

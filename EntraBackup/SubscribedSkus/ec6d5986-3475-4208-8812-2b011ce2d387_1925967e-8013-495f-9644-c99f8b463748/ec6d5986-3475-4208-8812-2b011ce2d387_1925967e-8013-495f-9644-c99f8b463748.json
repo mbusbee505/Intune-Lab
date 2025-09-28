@@ -1,0 +1,29 @@
+{
+  "accountName": "busbeecorp",
+  "accountId": "ec6d5986-3475-4208-8812-2b011ce2d387",
+  "appliesTo": "User",
+  "capabilityStatus": "Enabled",
+  "consumedUnits": 25,
+  "id": "ec6d5986-3475-4208-8812-2b011ce2d387_1925967e-8013-495f-9644-c99f8b463748",
+  "skuId": "1925967e-8013-495f-9644-c99f8b463748",
+  "skuPartNumber": "TVM_Premium_Standalone",
+  "subscriptionIds": [
+    "52417721-7c69-4bb1-a437-561ff46d4d3e"
+  ],
+  "prepaidUnits": {
+    "enabled": 1000000,
+    "suspended": 0,
+    "warning": 0,
+    "lockedOut": 0
+  },
+  "servicePlans": [
+    {
+      "servicePlanId": "36810a13-b903-490a-aa45-afbeb7540832",
+      "servicePlanName": "TVM_PREMIUM_1",
+      "servicePlanType": "WindowsDefenderATP",
+      "provisioningStatus": "Success",
+      "appliesTo": "User"
+    }
+  ],
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#subscribedSkus/$entity"
+}

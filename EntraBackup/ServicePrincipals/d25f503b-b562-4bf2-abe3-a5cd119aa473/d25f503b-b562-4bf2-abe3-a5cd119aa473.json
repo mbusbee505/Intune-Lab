@@ -1,0 +1,56 @@
+{
+  "id": "d25f503b-b562-4bf2-abe3-a5cd119aa473",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "OCaaS Experience Management Service",
+  "appDescription": null,
+  "appId": "6e99704e-62d5-40f6-b2fe-90aafbe3a710",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:48:00Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "OCaaS Experience Management Service",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": "https://config.office.net/logout",
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://config.office.net",
+    "https://config.office.net/"
+  ],
+  "servicePrincipalNames": [
+    "6e99704e-62d5-40f6-b2fe-90aafbe3a710",
+    "https://config.office.net/",
+    "https://config.gcc.office.net/"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}

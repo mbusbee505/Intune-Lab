@@ -1,0 +1,14 @@
+{
+  "id": "lAPpYvVpN0KRkAEhdxReEA2nmP4TkgpEsx1FJcReK6w-1",
+  "resourceId": "ec6d5986-3475-4208-8812-2b011ce2d387",
+  "roleDefinitionId": "62e90394-69f5-4237-9190-012177145e10",
+  "subjectId": "fe98a70d-9213-440a-b31d-4525c45e2bac",
+  "linkedEligibleRoleAssignmentId": null,
+  "externalId": "lAPpYvVpN0KRkAEhdxReEA2nmP4TkgpEsx1FJcReK6w-1",
+  "startDateTime": null,
+  "endDateTime": null,
+  "memberType": "Direct",
+  "assignmentState": "Active",
+  "status": "Accepted",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#governanceRoleAssignments/$entity"
+}

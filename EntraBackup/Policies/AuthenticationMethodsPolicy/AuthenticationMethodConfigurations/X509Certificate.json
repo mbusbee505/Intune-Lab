@@ -1,0 +1,44 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#authenticationMethodConfigurations/$entity",
+  "@odata.type": "#microsoft.graph.x509CertificateAuthenticationMethodConfiguration",
+  "id": "X509Certificate",
+  "state": "disabled",
+  "excludeTargets": [],
+  "certificateUserBindings": [
+    {
+      "x509CertificateField": "PrincipalName",
+      "userProperty": "userPrincipalName",
+      "priority": 1,
+      "trustAffinityLevel": "low"
+    },
+    {
+      "x509CertificateField": "RFC822Name",
+      "userProperty": "userPrincipalName",
+      "priority": 2,
+      "trustAffinityLevel": "low"
+    },
+    {
+      "x509CertificateField": "SubjectKeyIdentifier",
+      "userProperty": "certificateUserIds",
+      "priority": 3,
+      "trustAffinityLevel": "high"
+    }
+  ],
+  "authenticationModeConfiguration": {
+    "x509CertificateAuthenticationDefaultMode": "x509CertificateSingleFactor",
+    "x509CertificateDefaultRequiredAffinityLevel": "low",
+    "rules": []
+  },
+  "crlValidationConfiguration": {
+    "state": "disabled",
+    "exemptedCertificateAuthoritiesSubjectKeyIdentifiers": []
+  },
+  "includeTargets@odata.context": "https://graph.microsoft.com/v1.0/$metadata#policies/authenticationMethodsPolicy/authenticationMethodConfigurations('X509Certificate')/microsoft.graph.x509CertificateAuthenticationMethodConfiguration/includeTargets",
+  "includeTargets": [
+    {
+      "targetType": "group",
+      "id": "all_users",
+      "isRegistrationRequired": false
+    }
+  ]
+}

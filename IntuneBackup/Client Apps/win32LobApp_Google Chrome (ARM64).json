@@ -1,0 +1,110 @@
+{
+  "activeUninstallScript": null,
+  "publishingState": "published",
+  "msiInformation": null,
+  "minimumNumberOfProcessors": null,
+  "allowAvailableUninstall": false,
+  "allowedArchitectures": "arm64",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps/$entity",
+  "notes": "",
+  "minimumSupportedWindowsRelease": "Windows11_21H2",
+  "largeIcon": null,
+  "installCommandLine": "ChromeSetup.exe /silent /install ",
+  "privacyInformationUrl": null,
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "requirementRules": [],
+  "applicableArchitectures": "none",
+  "size": 5598928,
+  "installExperience": {
+    "deviceRestartBehavior": "suppress",
+    "maxRunTimeInMinutes": 60,
+    "runAsAccount": "system"
+  },
+  "minimumFreeDiskSpaceInMB": null,
+  "lastModifiedDateTime": "2025-09-25T23:29:10.6986264Z",
+  "minimumSupportedOperatingSystem": {
+    "v10_1903": false,
+    "v10_1803": false,
+    "v10_2004": false,
+    "v10_2H20": false,
+    "v10_1607": false,
+    "v10_21H1": false,
+    "v10_1709": false,
+    "v10_1809": false,
+    "v8_1": false,
+    "v10_1909": false,
+    "v10_0": false,
+    "v10_1703": false,
+    "v8_0": false
+  },
+  "uninstallCommandLine": "\"%ProgramFiles%\\Google\\Chrome\\Application\\chrome.exe\" --uninstall --system-level --force-uninstall ",
+  "fileName": "ChromeSetup.intunewin",
+  "uploadState": 1,
+  "displayName": "Google Chrome (ARM64)",
+  "activeInstallScript": null,
+  "rules": [
+    {
+      "check32BitOn64System": false,
+      "comparisonValue": null,
+      "operationType": "exists",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application",
+      "operator": "notConfigured",
+      "@odata.type": "#microsoft.graph.win32LobAppFileSystemRule",
+      "ruleType": "detection",
+      "fileOrFolderName": "chrome.exe"
+    }
+  ],
+  "publisher": "Google",
+  "minimumCpuSpeedInMHz": null,
+  "detectionRules": [
+    {
+      "fileOrFolderName": "chrome.exe",
+      "@odata.type": "#microsoft.graph.win32LobAppFileSystemDetection",
+      "path": "C:\\Program Files\\Google\\Chrome\\Application",
+      "check32BitOn64System": false,
+      "operator": "notConfigured",
+      "detectionValue": null,
+      "detectionType": "exists"
+    }
+  ],
+  "returnCodes": [
+    {
+      "returnCode": 0,
+      "type": "success"
+    },
+    {
+      "returnCode": 1707,
+      "type": "success"
+    },
+    {
+      "returnCode": 3010,
+      "type": "softReboot"
+    },
+    {
+      "returnCode": 1641,
+      "type": "hardReboot"
+    },
+    {
+      "returnCode": 1618,
+      "type": "retry"
+    }
+  ],
+  "displayVersion": "",
+  "description": "Google Chrome ARM64 Installer",
+  "setupFilePath": "ChromeSetup.exe",
+  "createdDateTime": "2025-09-25T20:36:51.590244Z",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "dependentAppCount": 0,
+  "committedContentVersion": "1",
+  "developer": "",
+  "isFeatured": false,
+  "isAssigned": false,
+  "informationUrl": null,
+  "id": "e929979e-91ac-436c-8604-8c6be35e5885",
+  "supersedingAppCount": 0,
+  "supersededAppCount": 0,
+  "minimumMemoryInMB": null,
+  "owner": ""
+}

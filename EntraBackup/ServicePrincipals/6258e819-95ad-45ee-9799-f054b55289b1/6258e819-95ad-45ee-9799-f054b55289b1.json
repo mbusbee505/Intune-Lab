@@ -1,0 +1,67 @@
+{
+  "id": "6258e819-95ad-45ee-9799-f054b55289b1",
+  "deletedDateTime": null,
+  "accountEnabled": true,
+  "alternativeNames": [],
+  "appDisplayName": "IAM Supportability",
+  "appDescription": null,
+  "appId": "a57aca87-cbc0-4f3c-8b9e-dc095fdc8978",
+  "applicationTemplateId": null,
+  "appOwnerOrganizationId": "f8cdef31-a31e-4b4a-93e4-5f571e91255a",
+  "appRoleAssignmentRequired": false,
+  "createdDateTime": "2025-09-18T22:46:23Z",
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "IAM Supportability",
+  "homepage": null,
+  "loginUrl": null,
+  "logoutUrl": "https://dxp.aad.azure.com/logout",
+  "notes": null,
+  "notificationEmailAddresses": [],
+  "preferredSingleSignOnMode": null,
+  "preferredTokenSigningKeyThumbprint": null,
+  "replyUrls": [
+    "https://support.iam.ad.azure.com",
+    "https://dxp.aad.azure.com"
+  ],
+  "servicePrincipalNames": [
+    "a57aca87-cbc0-4f3c-8b9e-dc095fdc8978",
+    "https://support.iam.ad.azure.com",
+    "https://dxp.aad.azure.com"
+  ],
+  "servicePrincipalType": "Application",
+  "signInAudience": "AzureADMultipleOrgs",
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "samlSingleSignOnSettings": null,
+  "addIns": [],
+  "appRoles": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "keyCredentials": [],
+  "oauth2PermissionScopes": [
+    {
+      "adminConsentDescription": "Invoke Diagnostics",
+      "adminConsentDisplayName": "Invoke Diagnostics",
+      "id": "8040cfef-0635-4aa6-b099-9f40d6866bbb",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Invoke Diagnostics",
+      "userConsentDisplayName": "Invoke Diagnostics",
+      "value": "invoke"
+    }
+  ],
+  "passwordCredentials": [],
+  "resourceSpecificApplicationPermissions": [],
+  "verifiedPublisher": {
+    "displayName": null,
+    "verifiedPublisherId": null,
+    "addedDateTime": null
+  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#servicePrincipals/$entity"
+}
