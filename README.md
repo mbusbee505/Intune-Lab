@@ -10,12 +10,6 @@ The **M365X‑Lab** exists to give me (and anyone who follows along) hands‑on,
 
 To keep things realistic, I asked ChatGPT to generate simulation data—a 25‑user **CSV import file** with randomized names, departments, and job titles.  That file (and every other artifact the lab produces) lives in this repo so you can clone, tweak, and reuse them in your own tenant.
 
-> **Quick links**  
-> • **Repo:** [`mbusbee505/IntuneLab`](https://github.com/mbusbee505/IntuneLab)  
-> • **User CSV:** [`busbeecorp_user_import.csv`](https://raw.githubusercontent.com/mbusbee505/IntuneLab/main/busbeecorp_user_import.csv)
-
----
-
 ## Lab Outline
 
 1. **Set up the lab environment**
@@ -61,11 +55,6 @@ To keep things realistic, I asked ChatGPT to generate simulation data—a 25‑u
 - **Intune admin center:** <https://intune.microsoft.com>
 - **Entra admin center:** <https://entra.microsoft.com>
 - **Defender portal:** <https://security.microsoft.com>
-
-## Lab Resources
-
-- **GitHub repo:** <https://github.com/mbusbee505/IntuneLab>
-- **Users CSV:** <https://raw.githubusercontent.com/mbusbee505/IntuneLab/main/busbeecorp_user_import.csv>
 
 ## Microsoft 365 Free Trials
 
