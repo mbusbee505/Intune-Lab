@@ -1,8 +1,8 @@
-# M365X‑Lab
+# Intune‑Lab
 
 ## About the Project
 
-The **M365X‑Lab** exists to give me (and anyone who follows along) hands‑on, end‑to‑end practice with **Intune**, **Autopilot**, **Entra ID**, **Defender for Endpoint**, and adjacent Microsoft 365 technologies.  The focus is on building a *production‑style* lab that:
+The **Intune‑Lab** exists to give me (and anyone who follows along) hands‑on, end‑to‑end practice with **Intune**, **Autopilot**, **Entra ID**, **Defender for Endpoint**, and adjacent Microsoft 365 technologies.  The focus is on building a *production‑style* lab that:
 
 * Automates new‑hire onboarding via Intune and Autopilot.
 * Applies role‑based security and update policies using Entra dynamic groups.
