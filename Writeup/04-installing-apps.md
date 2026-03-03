@@ -1,3 +1,11 @@
+<div align="center">
+
+[← 03 - Polishing OOBE](03-polishing-oobe.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](05-creating-update-rings.md)
+
+</div>
+
+---
+
 ## Installation Methods
 
 I wanted to test a few commonly used apps that also showcase the different methods of installing apps with Intune. I decided on the following:
@@ -179,3 +187,11 @@ For the Win32 App I used the following settings:
 	- **Detection method**: File or folder exists
 	- **Associated with a 32-bit app on 64-bit clients**: Yes
 - **Assignment**: All-VMware
+
+---
+
+<div align="center">
+
+[← 03 - Polishing OOBE](03-polishing-oobe.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](05-creating-update-rings.md)
+
+</div>

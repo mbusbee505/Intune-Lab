@@ -1,3 +1,11 @@
+<div align="center">
+
+[← 01 - Setting Up The Lab](01-setting-up-the-lab.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](03-polishing-oobe.md)
+
+</div>
+
+---
+
 ## Getting the Hardware Hash
 
 In a real world scenario hardware hashes for each device would be provided to the organization by the device manufacturer, but since I can't do that I had to fake it a bit. 
@@ -92,3 +100,11 @@ I noticed there were a few things I did not like about the OOBE setup. It asked 
 I also noticed it pushed the user into setting up a Windows Hello pin and then used that for login. I would instead prefer the user to have to use a domain user and password for login.
 
 Lastly, I noticed it asked if the user wanted Microsoft 365 Copilot added to taskbar. I do not want my users to have this, or the question asking about it so I want to look into how to remove it. 
+
+---
+
+<div align="center">
+
+[← 01 - Setting Up The Lab](01-setting-up-the-lab.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](03-polishing-oobe.md)
+
+</div> 

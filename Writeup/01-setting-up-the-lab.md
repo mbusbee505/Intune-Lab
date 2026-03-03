@@ -1,3 +1,11 @@
+<div align="center">
+
+[← README](../README.md) &nbsp;|&nbsp; [Next →](02-enrolling-devices.md)
+
+</div>
+
+---
+
 ## Signing Up for Intune
 
 First things first, I had to sign up for the [Intune Free Trial](https://aka.ms/IntuneTrial), provided an email address and a few other pieces of info.
@@ -219,4 +227,12 @@ On the Intune side you will need to go to `Intune > Tenant Administration > Conn
 ![Defender for Endpoint connection](attachments/01-setting-up-the-lab-13.png)
 
 These being connected ensures Defender for Endpoint is able to connect to the Intune devices.
+
+---
+
+<div align="center">
+
+[← README](../README.md) &nbsp;|&nbsp; [Next →](02-enrolling-devices.md)
+
+</div>
 

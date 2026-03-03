@@ -1,3 +1,11 @@
+<div align="center">
+
+[← 08 - Enrolling Androids](08-enrolling-androids.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](10-conclusion.md)
+
+</div>
+
+---
+
 ## What can I monitor?
 
 Intune provides several ways to monitor devices it manages. You can make configuration and compliance reports, you can view deployment history or endpoint antivirus reports, or even drill down into a specific device for more information. When in doubt, poke around and take a look at anything that says monitoring and reporting.
@@ -55,3 +63,11 @@ Screenshot of available Device reports:
 Screenshot of available App reports:
 
 ![Available app monitoring reports list](attachments/09-monitor-and-report-8.png)
+
+---
+
+<div align="center">
+
+[← 08 - Enrolling Androids](08-enrolling-androids.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](10-conclusion.md)
+
+</div>

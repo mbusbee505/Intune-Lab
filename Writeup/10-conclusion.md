@@ -1,3 +1,11 @@
+<div align="center">
+
+[← 09 - Monitor and Report](09-monitor-and-report.md) &nbsp;|&nbsp; [← README](../README.md)
+
+</div>
+
+---
+
 ## Now What?
 
 I have reached the end of things I intended to experiment with in my lab for now, although there are many more stones to turn over that we didn't even get a chance to play with. It sometimes requires a living breathing environment to get a sense of how some of the tools and features work within Intune. I am not too heartbroken I wasn't able to test everything, but I am excited to get the chance to work on an even more complex Microsoft 365 environment. 
@@ -57,3 +65,11 @@ I found that the default setting was for recurring billing to be turned off and 
 ## End of the Road
 
 Now that I have finished I think its a good idea to reflect on what we learned in this lab. We got to see how to upload a user database into Entra and assign them to dynamic groups based on their departments. We got to see how to assign licenses to users both by PowerShell scripts and through the portal. We got to learn how to get the hardware hashes of devices and upload them to Intune, as well as creating deployment and enrollment configurations to manage the out-of-the-box experience for users. We learned how to install apps, configure update rings, push security settings to devices as well as enrolling smartphones Lastly we learned how to secure and monitor our environment to ensure smooth operation. There are countless things in the Microsoft 365/Azure environment to learn but I think we did well getting this far. 
+
+---
+
+<div align="center">
+
+[← 09 - Monitor and Report](09-monitor-and-report.md) &nbsp;|&nbsp; [← README](../README.md)
+
+</div> 

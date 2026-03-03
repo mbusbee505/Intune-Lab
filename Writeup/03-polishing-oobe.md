@@ -1,3 +1,11 @@
+<div align="center">
+
+[← 02 - Enrolling Devices](02-enrolling-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](04-installing-apps.md)
+
+</div>
+
+---
+
 ## Removing Windows Hello
 
 When I ran my first OOBE test my user was prompted with the requirement to setup Windows Hello. I want to turn this off entirely so I found going to `Intune > Devices > Enrollment > Windows Hello for Business` and set Configure Windows Hello for Business to Disabled and clicked Save.
@@ -29,4 +37,12 @@ Once set up completed it logged me into my account and showed me the desktop. I 
 I checked settings and it shows I'm logged in with my corporate account and the name scheme took effect labeling the device as `[Serial Number]-W`. It looks like the initial run was successful. Next I want to test installing apps on the device.
 
 ![Windows settings showing corporate account and device name](attachments/03-polishing-oobe-5.png)
+
+---
+
+<div align="center">
+
+[← 02 - Enrolling Devices](02-enrolling-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](04-installing-apps.md)
+
+</div>
 

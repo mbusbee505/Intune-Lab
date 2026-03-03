@@ -1,3 +1,11 @@
+<div align="center">
+
+[← 06 - Securing Devices](06-securing-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](08-enrolling-androids.md)
+
+</div>
+
+---
+
 ## Benefits of Managed iPhones
 
 Intune allows you to enroll and manage other devices beyond just Windows 11. With some additional setup, you can connect Apple iPhone and Google Android devices. In this section I will show how to install an Apple Push Certificate so their servers are able to connect with Intune. 
@@ -85,3 +93,11 @@ Once the profile is installed you will see a success screen and back on the VPN 
 ![Successful profile installation and management screen](attachments/07-enrolling-iphones-15.png)
 
 The Intune Company Portal now allows users to download apps from the company to their phone as well as view devices they are connected to. Apps provided here by the company can be configured to have increased protection through Intune MAM policies.
+
+---
+
+<div align="center">
+
+[← 06 - Securing Devices](06-securing-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](08-enrolling-androids.md)
+
+</div>
