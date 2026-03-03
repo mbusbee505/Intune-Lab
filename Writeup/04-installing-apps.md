@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 03 - Polishing OOBE](03-polishing-oobe.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](05-creating-update-rings.md)
+[← Previous](03-polishing-oobe.md) &nbsp;|&nbsp; [Next →](05-creating-update-rings.md)
 
 </div>
 
 ---
+
+# Installing Apps
 
 ## Installation Methods
 
@@ -192,6 +194,6 @@ For the Win32 App I used the following settings:
 
 <div align="center">
 
-[← 03 - Polishing OOBE](03-polishing-oobe.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](05-creating-update-rings.md)
+[← Previous](03-polishing-oobe.md) &nbsp;|&nbsp; [Next →](05-creating-update-rings.md)
 
 </div>

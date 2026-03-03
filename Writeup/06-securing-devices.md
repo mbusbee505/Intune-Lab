@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 05 - Creating Update Rings](05-creating-update-rings.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](07-enrolling-iphones.md)
+[← Previous](05-creating-update-rings.md) &nbsp;|&nbsp; [Next →](07-enrolling-iphones.md)
 
 </div>
 
 ---
+
+# Securing Devices
 
 ## Introduction to Security
 
@@ -162,7 +164,7 @@ Since these two failure points are things we would want to have setup before we 
 
 <div align="center">
 
-[← 05 - Creating Update Rings](05-creating-update-rings.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](07-enrolling-iphones.md)
+[← Previous](05-creating-update-rings.md) &nbsp;|&nbsp; [Next →](07-enrolling-iphones.md)
 
 </div> 
 

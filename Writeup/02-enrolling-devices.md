@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 01 - Setting Up The Lab](01-setting-up-the-lab.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](03-polishing-oobe.md)
+[← Previous](01-setting-up-the-lab.md) &nbsp;|&nbsp; [Next →](03-polishing-oobe.md)
 
 </div>
 
 ---
+
+# Enrolling Devices
 
 ## Getting the Hardware Hash
 
@@ -105,6 +107,6 @@ Lastly, I noticed it asked if the user wanted Microsoft 365 Copilot added to tas
 
 <div align="center">
 
-[← 01 - Setting Up The Lab](01-setting-up-the-lab.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](03-polishing-oobe.md)
+[← Previous](01-setting-up-the-lab.md) &nbsp;|&nbsp; [Next →](03-polishing-oobe.md)
 
 </div> 

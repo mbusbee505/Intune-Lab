@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 02 - Enrolling Devices](02-enrolling-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](04-installing-apps.md)
+[← Previous](02-enrolling-devices.md) &nbsp;|&nbsp; [Next →](04-installing-apps.md)
 
 </div>
 
 ---
+
+# Polishing OOBE
 
 ## Removing Windows Hello
 
@@ -42,7 +44,7 @@ I checked settings and it shows I'm logged in with my corporate account and the 
 
 <div align="center">
 
-[← 02 - Enrolling Devices](02-enrolling-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](04-installing-apps.md)
+[← Previous](02-enrolling-devices.md) &nbsp;|&nbsp; [Next →](04-installing-apps.md)
 
 </div>
 

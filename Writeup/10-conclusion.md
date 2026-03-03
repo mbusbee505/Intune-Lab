@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 09 - Monitor and Report](09-monitor-and-report.md) &nbsp;|&nbsp; [← README](../README.md)
+[← Previous](09-monitor-and-report.md)
 
 </div>
 
 ---
+
+# Conclusion
 
 ## Now What?
 
@@ -70,6 +72,6 @@ Now that I have finished I think its a good idea to reflect on what we learned i
 
 <div align="center">
 
-[← 09 - Monitor and Report](09-monitor-and-report.md) &nbsp;|&nbsp; [← README](../README.md)
+[← Previous](09-monitor-and-report.md)
 
 </div> 

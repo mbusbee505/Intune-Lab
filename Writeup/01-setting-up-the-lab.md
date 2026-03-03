@@ -1,10 +1,12 @@
 <div align="center">
 
-[← README](../README.md) &nbsp;|&nbsp; [Next →](02-enrolling-devices.md)
+[Next →](02-enrolling-devices.md)
 
 </div>
 
 ---
+
+# Setting Up The Lab
 
 ## Signing Up for Intune
 
@@ -232,7 +234,7 @@ These being connected ensures Defender for Endpoint is able to connect to the In
 
 <div align="center">
 
-[← README](../README.md) &nbsp;|&nbsp; [Next →](02-enrolling-devices.md)
+[Next →](02-enrolling-devices.md)
 
 </div>
 

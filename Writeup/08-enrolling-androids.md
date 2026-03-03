@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 07 - Enrolling iPhones](07-enrolling-iphones.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](09-monitor-and-report.md)
+[← Previous](07-enrolling-iphones.md) &nbsp;|&nbsp; [Next →](09-monitor-and-report.md)
 
 </div>
 
 ---
+
+# Enrolling Androids
 
 ## Benefits of Managed Androids
 
@@ -48,6 +50,6 @@ Once you move on from this page you will be shown another screen explaining that
 
 <div align="center">
 
-[← 07 - Enrolling iPhones](07-enrolling-iphones.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](09-monitor-and-report.md)
+[← Previous](07-enrolling-iphones.md) &nbsp;|&nbsp; [Next →](09-monitor-and-report.md)
 
 </div>

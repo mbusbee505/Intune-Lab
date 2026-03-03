@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 08 - Enrolling Androids](08-enrolling-androids.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](10-conclusion.md)
+[← Previous](08-enrolling-androids.md) &nbsp;|&nbsp; [Next →](10-conclusion.md)
 
 </div>
 
 ---
+
+# Monitor and Report
 
 ## What can I monitor?
 
@@ -68,6 +70,6 @@ Screenshot of available App reports:
 
 <div align="center">
 
-[← 08 - Enrolling Androids](08-enrolling-androids.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](10-conclusion.md)
+[← Previous](08-enrolling-androids.md) &nbsp;|&nbsp; [Next →](10-conclusion.md)
 
 </div>

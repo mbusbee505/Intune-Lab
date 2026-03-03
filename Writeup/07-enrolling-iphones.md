@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 06 - Securing Devices](06-securing-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](08-enrolling-androids.md)
+[← Previous](06-securing-devices.md) &nbsp;|&nbsp; [Next →](08-enrolling-androids.md)
 
 </div>
 
 ---
+
+# Enrolling iPhones
 
 ## Benefits of Managed iPhones
 
@@ -98,6 +100,6 @@ The Intune Company Portal now allows users to download apps from the company to 
 
 <div align="center">
 
-[← 06 - Securing Devices](06-securing-devices.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](08-enrolling-androids.md)
+[← Previous](06-securing-devices.md) &nbsp;|&nbsp; [Next →](08-enrolling-androids.md)
 
 </div>

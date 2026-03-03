@@ -1,10 +1,12 @@
 <div align="center">
 
-[← 04 - Installing Apps](04-installing-apps.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](06-securing-devices.md)
+[← Previous](04-installing-apps.md) &nbsp;|&nbsp; [Next →](06-securing-devices.md)
 
 </div>
 
 ---
+
+# Creating Update Rings
 
 ## What is an Update Ring?
 
@@ -63,7 +65,7 @@ This one is a little tougher to test since we would have to wait for Microsoft t
 
 <div align="center">
 
-[← 04 - Installing Apps](04-installing-apps.md) &nbsp;|&nbsp; [← README](../README.md) &nbsp;|&nbsp; [Next →](06-securing-devices.md)
+[← Previous](04-installing-apps.md) &nbsp;|&nbsp; [Next →](06-securing-devices.md)
 
 </div>
 
