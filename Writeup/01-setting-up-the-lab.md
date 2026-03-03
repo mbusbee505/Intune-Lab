@@ -143,7 +143,7 @@ According to Microsoft, it can take up to 24 hours for these groups to apply to 
 
 In the `Add dynamic query` page I added the following settings:
 
-![Dynamic query settings](01-setting-up-the-lab-10.png)
+![Dynamic query settings](attachments/01-setting-up-the-lab-10.png)
 
 ## Assigning Entra+Intune Licenses
 
@@ -208,7 +208,7 @@ Set-MgGroupLicense -GroupId $groupId `
 
 I confirmed this took effect by going to Entra > Billing > Licenses > All Products and saw 25 Assigned licenses for each product.
 
-![Assigned licenses](01-setting-up-the-lab-11.png)
+![Assigned licenses](attachments/01-setting-up-the-lab-11.png)
 
 ## Signing Up for Defender for Endpoint
 
