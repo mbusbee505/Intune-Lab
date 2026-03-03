@@ -12,37 +12,37 @@ To keep things realistic, I asked ChatGPT to generate simulation data—a 25‑u
 
 ## Lab Outline
 
-1. **Set up the lab environment**
+1. [**Set up the lab environment**](Writeup/01-setting-up-the-lab.md)
 	1. Sign up for free trials
 	2. Upload users to Entra
 	3. Create groups in Entra
 	4. Assign licenses to users
-2. **Enroll devices to Intune**
+2. [**Enroll devices to Intune**](Writeup/02-enrolling-devices.md)
 	1. Gather hardware hashes
 	2. Create deployment profile
 	3. Configure Enrollment Status Page
 	4. Confirm OOBE proof‑of‑concept
-3. **Improve OOBE experience**
+3. [**Improve OOBE experience**](Writeup/03-polishing-oobe.md)
 	1. Remove unnecessary user prompts
-4. **Install apps**
+4. [**Install apps**](Writeup/04-installing-apps.md)
 	1. Google Chrome
 	2. Zoom
 	3. Microsoft Office
 	4. GlobalProtect VPN
-5. **Configure update rings**
+5. [**Configure update rings**](Writeup/05-creating-update-rings.md)
 	1. Pilot group
 	2. Broad user group
-6. **Improve security posture**
+6. [**Improve security posture**](Writeup/06-securing-devices.md)
 	1. Install security baselines
 	2. Connect Defender for Endpoint
 	3. Create compliance policies
 	4. Enforce compliance via Conditional Access
-7. **Set up iPhone enrollments**
+7. [**Set up iPhone enrollments**](Writeup/07-enrolling-iphones.md)
 	1. Apple Push Notification certificate
 	2. Company Portal app
 	3. User login & profile installation
 	4. Deploy Intune apps from Company Portal
-8. **Set up Android enrollments**
+8. [**Set up Android enrollments**](Writeup/08-enrolling-androids.md)
 	1. Connect Managed Google Play
 	2. Company Portal login
 	3. Deploy Intune apps from Managed Play Store
