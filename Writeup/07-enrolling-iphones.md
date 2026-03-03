@@ -16,7 +16,7 @@ When iPhones get enrolled through the Intune Company Portal, IT teams gain visib
 
 ## Apple MDM Push Certificate
 
-An Apple MDM Push Certificate is required to create a handshake between Intune and Apple's Push Notification (APN) service. It its what builds the trust relationship between the individual device and the Intune server. Every MDM command we order through Intune must pass through APN to reach the devices.
+An Apple MDM Push Certificate is required to create a handshake between Intune and Apple's Push Notification (APN) service. It is what builds the trust relationship between the individual device and the Intune server. Every MDM command we order through Intune must pass through APN to reach the devices.
 
 To sign up for a new Push Certificate you will need to have an apple account. If you want to create a new account you can do so at [appleid.apple.com](https://appleid.apple.com)
 
@@ -94,7 +94,7 @@ Once the profile is installed you will see a success screen and back on the VPN 
 
 ![Successful profile installation and management screen](attachments/07-enrolling-iphones-15.png)
 
-The Intune Company Portal now allows users to download apps from the company to their phone as well as view devices they are connected to. Apps provided here by the company can be configured to have increased protection through Intune MAM policies.
+The Intune Company Portal now allows users to download apps from the company to their phone as well as view devices they are connected to. Apps provided here by the company can be configured to have increased protection through Intune MAM policies. If I were getting into more detail regarding administering applications on these devices, MAM policies would be where I go, but for now I will leave it as is and move on to enrolling Android devices.
 
 ---
 

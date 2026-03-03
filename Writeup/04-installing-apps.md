@@ -17,7 +17,7 @@ I wanted to test a few commonly used apps that also showcase the different metho
 - Microsoft Store app - GlobalProtect VPN
 - Microsoft 365 Apps for Windows 11
 
-I will also need to make sure my [[2. Enrolling Devices#Creating an Enrollment Status Page (ESP)|Enrollment Status Page]] settings block the user from accessing the device until the installations are complete.
+I will also need to make sure my [Enrollment Status Page](02-enrolling-devices.md) settings block the user from accessing the device until the installations are complete.
 
 ## Line-of-business (LOB) - Zoom Workplace
 
@@ -68,7 +68,7 @@ C:/
 ├─ Output/
 ```
 
-I then used the following command in a Windows machine to turn the Google Chrome:
+I then used the following command in a Windows machine to package the Google Chrome installer.
 
 ```
 C:\Tools\Win32Prep\IntuneWinAppUtil.exe `
@@ -77,7 +77,7 @@ C:\Tools\Win32Prep\IntuneWinAppUtil.exe `
   -o "C:\Output"
 ```
 
-Once this process completes you should see a `ChromeSetup.intunewin` file in the Win32Oput folder. Next is uploading this to Intune and creating an App for it.
+Once this process completes you should see a `ChromeSetup.intunewin` file in the Win32Output folder. Next is uploading this to Intune and creating an App for it.
 
 Back in Intune I went to `Intune > Apps > All Apps > Create > App Type > Windows app (Win32)` and when it asked for the file I gave it the .intunewin I just made. I gave it the name Google Chrome (ARM64) to be consistent with the Zoom App.
 
@@ -118,6 +118,9 @@ To create a Microsoft Store app you just need to go to `Intune > Apps > All Apps
 When I selected this it auto-populated most of the information for me in the App Information settings. I did however change the Install behavior to `system` to ensure this would apply to all users on the device.
 
 On the next page I assigned this to be required for the All-Windows-11 group then hit Create to let Intune build this for me. 
+
+Windows Store apps handle detection automatically so we do not need to do anything extra here.
+
 ## Microsoft 365 Apps for Windows 11
 
 Microsoft Office 365 Apps are another install that will often be requested in corporate enterprise environments. Microsoft makes it easy to install this by offering the Office 365 installer as a built in option in the Intune Apps Create menu. Just go to `Intune > Apps > All Apps > Create > App Type > Microsoft 365 Apps > Windows 10 and later` to start the creation wizard.
@@ -136,16 +139,6 @@ For the App Setup Information I kept the defaults, feel free to tweak as needed.
 - **Use shared computer activation**: Yes
 
 On the assignments page I set the install to run for all devices in the All-Windows-11 group and clicked Create so Intune could start building the app.
-
-## Testing
-
-After all the apps were set up in the portal I restarted my VM OOBE snapshot to start fresh. I let it run for a few minutes and saw the Enrollment Status Page say Installed Apps: 4 out of 4. I was then taken to the device desktop where I confirmed all apps installed.
-
-![Enrollment Status Page showing 4 out of 4 apps installed](attachments/04-installing-apps-6.png)
-
-You can also confirm the apps were installed from the Intune portal by going to  `Intune > Devices > Windows > [Device Name] > Managed Apps`.
-
-![Managed apps list in Intune portal for device](attachments/04-installing-apps-7.png)
 
 ## Bonus: VMware Tools (Win32 App)
 
@@ -189,6 +182,16 @@ For the Win32 App I used the following settings:
 	- **Detection method**: File or folder exists
 	- **Associated with a 32-bit app on 64-bit clients**: Yes
 - **Assignment**: All-VMware
+
+## Testing
+
+After all the apps were set up in the portal I restarted my VM OOBE snapshot to start fresh. I let it run for a few minutes and saw the Enrollment Status Page say Installed Apps: 4 out of 4. I was then taken to the device desktop where I confirmed all apps installed.
+
+![Enrollment Status Page showing 4 out of 4 apps installed](attachments/04-installing-apps-6.png)
+
+You can also confirm the apps were installed from the Intune portal by going to  `Intune > Devices > Windows > [Device Name] > Managed Apps`.
+
+![Managed apps list in Intune portal for device](attachments/04-installing-apps-7.png)
 
 ---
 

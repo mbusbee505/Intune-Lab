@@ -10,7 +10,7 @@
 
 ## Removing Windows Hello
 
-When I ran my first OOBE test my user was prompted with the requirement to setup Windows Hello. I want to turn this off entirely so I found going to `Intune > Devices > Enrollment > Windows Hello for Business` and set Configure Windows Hello for Business to Disabled and clicked Save.
+When I ran my first OOBE test my user was prompted with the requirement to setup Windows Hello. This screen interfered with the overall OOBE I was trying to achieve and I want to turn this off entirely so I found going to `Intune > Devices > Enrollment > Windows Hello for Business` and set Configure Windows Hello for Business to Disabled and clicked Save. Now when users try to run install they will get a smoother experience.
 
 ## Removing 365 Copilot Pin Prompt
 
@@ -20,11 +20,11 @@ Turns out you can go to `Microsoft 365 > Copilot > Settings > User Access` and s
 
 ![Microsoft 365 Copilot taskbar pin settings](attachments/03-polishing-oobe-1.png)
 
-While I was in here I also went through and disabled Copilot across most of the tenant settings. 
+While I was in here I also went through and disabled all Copilot options across most of the tenant settings. This makes sure the user is not sent any additional prompts. In a production environment I would consider whether Copilot is needed on the machines and have it installed automatically rather than give users the choice via prompt.
 
 ## Testing Setup
 
-Now comes the time to reboot/startup the VM and see if the changes too effect. I started it up and instead of the initial questions where setup asks me to choose a region and language, it instead immediately asked me to sign in with a Microsoft account. Here this should let my user log in with their corporate account that was made for them.
+Now comes the time to reboot/startup the VM and see if the changes took effect. I started it up and instead of the initial questions where setup asks me to choose a region and language, it instead immediately asked me to sign in with a Microsoft account. Here this should let my user log in with their corporate account that was made for them.
 
 ![Windows OOBE Microsoft account sign-in screen](attachments/03-polishing-oobe-2.png)
 

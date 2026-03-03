@@ -10,14 +10,14 @@
 
 ## Getting the Hardware Hash
 
-In a real world scenario hardware hashes for each device would be provided to the organization by the device manufacturer, but since I can't do that I had to fake it a bit. 
+In a real world scenario hardware hashes for each device would be provided to the organization by the device manufacturer, but since I don't have access to manufacturer-provided hashes, I used the standard `Get-WindowsAutopilotInfo` script directly from OOBE to upload the hash manually. 
 
 I created a new Windows 11 VM and when it got to the select region screen I pressed Shift+F10 to open command prompt then ran the command `powershell` to get to open a new PowerShell session. 
 
 The commands below do the following things:
+- Sets Execution Policy to Bypass
 - Installs Microsoft Graph
 - Connects to Microsoft Graph using the TenantID provided
-- Sets Execution Policy to Bypass
 - Installs Windows Autopilot Info module
 - Generates the device hardware hash and uploads it to the tenant
 
@@ -87,6 +87,9 @@ The following settings are important here to make sure apps we install during se
 
 - **Block device use until all apps and profiles are installed**: Yes
 - **Block device use until required apps are installed if they are assigned to the user/device**: All
+
+This makes sure the device is ready to go for the user before they get to operate it. 
+
 ## Testing Out-of-box experience (OOBE)
 
 With the command prompt still open on the Windows VM, I ran the command below to shutdown the device and set it back to OOBE mode.

@@ -29,7 +29,7 @@ To access Security Baselines just go to `Intune > Endpoint security > Security B
 
 Once you save this baseline the security settings chosen in Configuration Settings will be enforced on all users and Windows 11 devices. If we wanted to tweak these settings later on we could come back and change the settings or possibly create a new baseline and assign it to a different group of users or devices. 
 
-We could also consider, for testing purposes, limiting the rollout of this Security Baseline to our IT pilot users similar to howe we did with the Update Rings. This way we could ensure the baseline works correctly for non-critical users before pushing it out to all users.
+We could also consider, for testing purposes, limiting the rollout of this Security Baseline to our IT pilot users similar to how we did with the Update Rings. This way we could ensure the baseline works correctly for non-critical users before pushing it out to all users.
 
 ## Defender for Endpoint
 
@@ -44,7 +44,8 @@ Clicking download will get you a file called `WindowsDefenderATP.onboarding` tha
 To create a new onboarding policy go to `Intune > Endpoint security > Endpoint detection and response > Create policy`
 
 >On this page Intune will also show you how many devices you currently do not have onboarded.
-> ![Devices not onboarded count in Intune](attachments/06-securing-devices-2.png)
+
+![Devices not onboarded count in Intune](attachments/06-securing-devices-2.png)
 
 Now you will need to get the text from within the `WindowsDefenderATP.onboarding` file which Microsoft calls the Onboarding blob. You can open it in something standard like Notepad or VSCode and paste the entire thing in the field called Onboarding (Device) below. In the Create Profile wizard I added the following settings:
 
@@ -142,9 +143,9 @@ Report-only will just create logs but not actually lock you out so you can test 
 
 ![Sign-in logs showing successful conditional access](attachments/06-securing-devices-13.png)
 
-Since my sign-ins though the online portal are showing as a Success it looks like its okay to turn the policy on for real. Your mileage may vary. This is why testing is important.
+Since my sign-ins though the online portal are showing as a Success it looks like it's okay to turn the policy on for real. Your mileage may vary. This is why testing is important.
 
-Next up we want to create another policy to block legacy authentication. Go to `Entra > Conditional Access > Create new policy` and enter the following details:
+Next up we want to create another policy to block legacy authentication. Legacy authentication uses outdated protocols with insufficient security measures and are best to just disable. Go to `Entra > Conditional Access > Create new policy` and enter the following details:
 
 **Name**: Block legacy authentication – All users
 **Assignments**: All Users

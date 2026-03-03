@@ -18,7 +18,7 @@ The trial allows for 25 users but we get all the same features as the paid versi
 ![Setting up Intune screenshot 1](attachments/01-setting-up-the-lab-1.png)
 
 
-## Nuke The Security Defaults
+## Disable The Security Defaults
 
 Next up I needed to turn off the Entra security defaults so theres room for my conditional access policies to take effect without conflict. To do this I went to Entra > Overview > Properties > Manage security defaults and set it to `Disabled (not recommended)`. 
 
@@ -28,7 +28,7 @@ When asked for the reason, I selected "My organization plans to use Conditional 
 
 ## Signing Up for Entra ID
 
-You will need to use [this page](https://signup.microsoft.com/get-started/signup?products=2ebf8ffa-7de1-4d14-9b15-238f5ca77671&mproducts=CFQ7TTC0NZT8:0001&fmproducts=CFQ7TTC0NZT8:0001&ali=1) to sign up for Entra ID and use the same Microsoft account as you used for the Intune trial. Once this is complete you will be able to use Entra in your environment. 
+You will need to use [this page](aka.ms/EntraSuiteTrial) to sign up for Entra ID and use the same Microsoft account as you used for the Intune trial. Once this is complete you will be able to use Entra in your environment. 
 
 Before you begin you may need to assign a license to your user. If this happens go to Microsoft 365 Admin Center > Billing > Licenses and ensure there is a license assigned to your user. If not, assign one manually from this page by clicking Microsoft Entra Suite > Users > Assign Licenses and choose yourself.
 
@@ -166,7 +166,7 @@ ForEach-Object {
 }
 ```
 
-> In the real world I would want to make sure data entry for each new user is happening correctly.
+> In actual production you would want to enforce this at user creation time via HR system integration or provisioning rules.
 
 With the Company Name set I just needed to create a dynamic group for All-Employees based on the Company Name property BusbeeCorp
 
